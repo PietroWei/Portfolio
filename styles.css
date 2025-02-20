@@ -41,3 +41,8 @@ footer a {
 footer i {
     margin-right: 0.5em;
 }
+
+nav a img {
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
