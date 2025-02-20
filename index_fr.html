@@ -5,12 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de Business/Data Analyst</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .language-switcher {
+            float: right;
+            margin-right: 1em;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Bienvenue dans Mon Portfolio</h1>
         <nav>
-            <a href="index_en.html">English</a>
+            <a href="index_en.html" class="language-switcher">
+                <span style="color: #0055A4;">&#9632;</span>
+                <span style="color: #FFFFFF;">&#9632;</span>
+                <span style="color: #EF4135;">&#9632;</span>
+                English Version
+            </a>
         </nav>
     </header>
     <section>
@@ -22,7 +35,12 @@
         <p>Description de tes principaux projets avec des liens vers les repositories GitHub.</p>
     </section>
     <footer>
-        <p>Contact : ton email ou des liens vers tes profils sociaux.</p>
+        <h2>Contact</h2>
+        <p>
+            <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i> youremail@example.com</a><br>
+            <a href="https://www.linkedin.com/in/yourname" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a><br>
+            <i class="fas fa-phone"></i> +123 456 7890
+        </p>
     </footer>
 </body>
 </html>
