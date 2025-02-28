@@ -10,6 +10,17 @@ header {
     color: #ffffff; /* White text */
     padding: 1em 0;
     text-align: center;
+    position: relative; /* Add this line */
+}
+
+.profile-image {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid #ffffff; /* Adds a white border */
 }
 
 nav a {
