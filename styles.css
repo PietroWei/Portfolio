@@ -6,23 +6,23 @@ body {
 }
 
 header {
-    background-color: #4a4a4a; /* Dark gray for contrast */
-    color: #ffffff; /* White text */
+    background-color: #4a4a4a; /* Grigio scuro per contrasto */
+    color: #ffffff; /* Testo bianco */
     padding: 1em 0;
     text-align: center;
-    position: relative; /* Add this line */
+    position: relative; /* Aggiungi questa linea */
 }
 
 .profile-image {
     position: absolute;
-    top: 10px; /* Adjust as needed */
-    right: 10px; /* Adjust as needed */
-    width: 100px; /* Adjust as needed */
-    height: auto;
-    border-radius: 50%; /* Makes the image circular */
-    border: 2px solid #ffffff; /* Adds a white border */
+    top: 50%; /* Centra verticalmente */
+    right: 10px; /* Regola secondo necessità */
+    transform: translateY(-50%); /* Centra verticalmente */
+    max-height: 100px; /* Altezza massima */
+    width: auto;
+    border-radius: 50%; /* Rende l'immagine circolare */
+    border: 2px solid #ffffff; /* Aggiunge un bordo bianco */
 }
-
 nav a {
     color: #ffffff;
     margin: 0 1em;
