@@ -97,3 +97,30 @@ h1 {
     font-weight: bold;
     color: #333333; /* Dark gray for strong text */
 }
+
+
+.mini-index {
+    background-color: #f0f0f0; /* Light background color */
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.mini-index ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mini-index li {
+    display: inline;
+    margin: 0 1em;
+}
+
+.mini-index a {
+    text-decoration: none;
+    color: #333333; /* Dark gray for links */
+    font-weight: bold;
+}
