@@ -20,7 +20,6 @@ header {
     transform: translateY(-50%); /* Centra verticalmente */
     max-height: 100px; /* Altezza massima */
     width: auto;
-    border-radius: 50%; /* Rende l'immagine circolare */
     border: 2px solid #ffffff; /* Aggiunge un bordo bianco */
 }
 nav a {
@@ -100,12 +99,12 @@ h1 {
 
 
 .mini-index {
-    background-color: #f0f0f0; /* Light background color */
+    background-color: 0 0 10px rgb(155, 149, 149); /* Light shadow for depth */
     padding: 1em;
     text-align: center;
     margin-bottom: 2em;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    box-shadow: 0 0 10px rgb(155, 149, 149); /* Light shadow for depth */
 }
 
 .mini-index ul {
