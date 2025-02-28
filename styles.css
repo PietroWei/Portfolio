@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* Colore di sfondo chiaro */
+    background-color: #f9f9f9; /* Light background color */
 }
 
 header {
-    background-color: #4a4a4a; /* Colore grigio scuro per il contrasto */
-    color: #ffffff; /* Testo bianco */
+    background-color: #4a4a4a; /* Dark gray for contrast */
+    color: #ffffff; /* White text */
     padding: 1em 0;
     text-align: center;
 }
@@ -21,15 +21,15 @@ nav a {
 section {
     margin: 2em;
     padding: 1em;
-    background-color: #ffffff; /* Colore di sfondo bianco */
+    background-color: #ffffff; /* White background */
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Leggera ombra per profondità */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
 }
 
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #4a4a4a; /* Colore grigio scuro per il contrasto */
+    background-color: #4a4a4a; /* Dark gray for contrast */
     color: #ffffff;
 }
 
@@ -45,4 +45,40 @@ footer i {
 nav a img {
     vertical-align: middle;
     margin-right: 0.5em;
+}
+
+/* Additional styles for vibrancy */
+h1, h2 {
+    color: #333333; /* Dark gray for headings */
+}
+
+.project-list li {
+    background-color: #e0e0e0; /* Light gray background for list items */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project-list a {
+    color: #333333; /* Dark gray for links */
+    font-weight: bold;
+}
+
+.about-section {
+    line-height: 1.6;
+}
+
+.about-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #555555; /* Medium gray for subheadings */
+}
+
+.about-section p {
+    margin-bottom: 15px;
+}
+
+.about-section strong {
+    font-weight: bold;
+    color: #333333; /* Dark gray for strong text */
 }
