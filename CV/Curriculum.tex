@@ -1,0 +1,162 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\input{glyphtounicode}
+
+\usepackage{baskervillef}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\setlength{\footskip}{10pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{0.0in}
+\addtolength{\evensidemargin}{0.0in}
+\addtolength{\textwidth}{0.0in}
+\addtolength{\topmargin}{0.2in}
+\addtolength{\textheight}{0.0in}
+
+\urlstyle{same}
+
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \it\vspace{3pt}
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1 \vspace{-4pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE Pietro Gazzi} \\ \vspace{0pt} 
+    \begin{multicols}{2}
+    \begin{flushleft}
+    \large{93 Rue de la Roquette} \\
+    \large{Paris, 75011 } \\
+    \end{flushleft}
+    
+    \begin{flushright}
+    \href{mailto:{pietrogazzi01@gmail.com}} \large{pietrogazzi01@gmail.com}\\
+    \large{+330745108257}
+    \end{flushright}
+    \end{multicols}
+\end{center}
+
+\section{Professional Summary}
+\resumeSubHeadingListStart
+\item{
+    Dynamic Aerospace Engineer with extensive experience in data analytics, numerical modeling, and risk management. Proven track record in research and industry, with a strong focus on leveraging data to drive decision-making and optimize performance. Fluent in multiple programming languages and experienced in using advanced analytics tools.
+}
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+        {Politecnico di Milano}{September 2020 -- December 2022}
+        {Aerospace Engineering}
+    \resumeSubheading
+        {Università degli Studi di Firenze}{September 2017 -- July 2020}
+        {Mechanical Engineering}
+\resumeSubHeadingListEnd
+
+\section{Research Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading
+        {PEKK/carbon-fiber composite: mode I static and fatigue}{March 2022 -- December 2022}
+        {Politecnico di Milano}{Milan, Italy}
+      \resumeItemListStart
+        \resumeItem{Design and manufacturing of composites specimens}
+        \resumeItem{Laboratory testing of thermo-plastic matrix composites in static and fatigue conditions}
+        \resumeItem{FEM non-linear static and fatigue modeling and analysis}
+        \resumeItem{Parameters fitting through Nelder-Mead algorithm}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Work Experience} 
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Research Engineer}{February 2023 -- Present}
+      {Institut Polytechnique de Paris}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Experimental and numerical analysis of crack propagation in 3D printed Polycarbonate}
+        \resumeItem{Additive manufacturing of optimized specimens}
+        \resumeItem{Numerical assessment of fracture behaviour}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Structural Analyst}{May 2022 -- January 2023}
+      {Thales Alenia Space, Akka Technologies}{Turin, Italy}
+      \resumeItemListStart
+        \resumeItem{FEM modelling of space primary and secondary structure}
+        \resumeItem{Linear static, modal, buckling and frequency response analysis}
+        \resumeItem{Post process and stress analysis with stress reports drawn up}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Specialized Skills}
+\resumeSubHeadingListStart
+    \resumeItem{
+     \textbf{Programming languages:} Python, R, Matlab, Bash
+    }
+    \resumeItem{
+     \textbf{Commercial FEM solver:} Abaqus, Nastran, Hypermesh
+    }
+    \resumeItem{
+     \textbf{Data Analytics:} SQL, SAS, R, SPSS, Python
+    }
+    \resumeItem{
+     \textbf{Visualization:} Tableau, PowerBI
+    }
+\resumeSubHeadingListEnd
+
+\section{Languages}
+\resumeSubHeadingListStart
+    \resumeItem{
+     \textbf{Italian:} Native
+    }
+    \resumeItem{
+     \textbf{English:} Fluent
+    }
+    \resumeItem{
+     \textbf{French:} Fluent
+    }
+\resumeSubHeadingListEnd
+
+\end{document}
