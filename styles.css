@@ -48,8 +48,12 @@ nav a img {
 }
 
 /* Additional styles for vibrancy */
-h1, h2 {
+h2 {
     color: #333333; /* Dark gray for headings */
+}
+/* Additional styles for vibrancy */
+h1 {
+    color: #eaeaea; /* Pearly color */
 }
 
 .project-list li {
