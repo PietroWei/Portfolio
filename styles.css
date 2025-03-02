@@ -2,16 +2,26 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* Colore di sfondo chiaro */
+    background-color: #f9f9f9; /* Light background color */
 }
 
 header {
-    background-color: #4a4a4a; /* Colore grigio scuro per il contrasto */
+    background-color: #4a4a4a; /* Grigio scuro per contrasto */
     color: #ffffff; /* Testo bianco */
     padding: 1em 0;
     text-align: center;
+    position: relative; /* Aggiungi questa linea */
 }
 
+.profile-image {
+    position: absolute;
+    top: 50%; /* Centra verticalmente */
+    right: 10px; /* Regola secondo necessità */
+    transform: translateY(-50%); /* Centra verticalmente */
+    max-height: 120px; /* Altezza massima */
+    width: auto;
+    border: 2px solid #ffffff; /* Aggiunge un bordo bianco */
+}
 nav a {
     color: #ffffff;
     margin: 0 1em;
@@ -21,15 +31,15 @@ nav a {
 section {
     margin: 2em;
     padding: 1em;
-    background-color: #ffffff; /* Colore di sfondo bianco */
+    background-color: #ffffff; /* White background */
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Leggera ombra per profondità */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
 }
 
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #4a4a4a; /* Colore grigio scuro per il contrasto */
+    background-color: #4a4a4a; /* Dark gray for contrast */
     color: #ffffff;
 }
 
@@ -45,4 +55,71 @@ footer i {
 nav a img {
     vertical-align: middle;
     margin-right: 0.5em;
+}
+
+/* Additional styles for vibrancy */
+h2 {
+    color: #333333; /* Dark gray for headings */
+}
+/* Additional styles for vibrancy */
+h1 {
+    color: #eaeaea; /* Pearly color */
+}
+
+.project-list li {
+    background-color: #e0e0e0; /* Light gray background for list items */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project-list a {
+    color: #333333; /* Dark gray for links */
+    font-weight: bold;
+}
+
+.about-section {
+    line-height: 1.6;
+}
+
+.about-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #555555; /* Medium gray for subheadings */
+}
+
+.about-section p {
+    margin-bottom: 15px;
+}
+
+.about-section strong {
+    font-weight: bold;
+    color: #333333; /* Dark gray for strong text */
+}
+
+
+.mini-index {
+    background-color: 0 0 10px rgb(155, 149, 149); /* Light shadow for depth */
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(155, 149, 149); /* Light shadow for depth */
+}
+
+.mini-index ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mini-index li {
+    display: inline;
+    margin: 0 1em;
+}
+
+.mini-index a {
+    text-decoration: none;
+    color: #333333; /* Dark gray for links */
+    font-weight: bold;
 }
