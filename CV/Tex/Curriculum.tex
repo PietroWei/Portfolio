@@ -1,4 +1,4 @@
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt]{article} % Reduced font size from 11pt to 10pt
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -24,11 +24,11 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-\addtolength{\oddsidemargin}{0.0in}
-\addtolength{\evensidemargin}{0.0in}
-\addtolength{\textwidth}{0.0in}
-\addtolength{\topmargin}{0.2in}
-\addtolength{\textheight}{0.0in}
+\addtolength{\oddsidemargin}{-0.25in} % Reduced margins
+\addtolength{\evensidemargin}{-0.25in} % Reduced margins
+\addtolength{\textwidth}{0.5in} % Increased text width
+\addtolength{\topmargin}{-0.5in} % Reduced top margin
+\addtolength{\textheight}{1.0in} % Increased text height
 
 \urlstyle{same}
 
@@ -36,26 +36,26 @@
 \setlength{\tabcolsep}{0in}
 
 \titleformat{\section}{
-  \it\vspace{3pt}
-}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+  \it\vspace{1pt} % Reduced from 3pt to 1pt
+}{}{0em}{}[\color{black}\titlerule\vspace{-3pt}] % Reduced from -5pt to -3pt
 
 \pdfgentounicode=1
 
 \newcommand{\resumeItem}[1]{
   \item{
-    {#1 \vspace{-4pt}}
+    {#1 \vspace{-2pt}} % Reduced from -4pt to -2pt
   }
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
+  \vspace{-1pt}\item % Reduced from -2pt to -1pt
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small #3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-10pt}
+    \end{tabular*}\vspace{-8pt} % Reduced from -10pt to -8pt
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-2pt}} % Reduced from -3pt to -2pt
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
@@ -65,7 +65,7 @@
 \begin{document}
 
 \begin{center}
-    {\LARGE Pietro Gazzi} \\ \vspace{0pt} 
+    {\LARGE Pietro Gazzi}\\ \vspace{-5pt} % Reduced vertical space
     \begin{multicols}{2}
     \begin{flushleft}
     \large{93 Rue de la Roquette} \\
@@ -73,8 +73,9 @@
     \end{flushleft}
     
     \begin{flushright}
-    \href{mailto:{pietrogazzi01@gmail.com}} \large{pietrogazzi01@gmail.com}\\
-    \large{+330745108257}
+    \href{mailto:pietrogazzi01@gmail.com}{\large{pietrogazzi01@gmail.com}}\\
+    \large{+330745108257} \\
+    \href{https://pietrowei.github.io/Portfolio}{\large{My portfolio}}
     \end{flushright}
     \end{multicols}
 \end{center}
@@ -82,37 +83,25 @@
 \section{Professional Summary}
 \resumeSubHeadingListStart
 \item{
-    Dynamic Aerospace Engineer with extensive experience in data analytics, numerical modeling, and risk management. Proven track record in research and industry, with a strong focus on leveraging data to drive decision-making and optimize performance. Fluent in multiple programming languages and experienced in using advanced analytics tools.
+    Dynamic Aerospace Engineer with extensive experience in data analytics, numerical modeling, and risk management. Proven track record in research and industry, with a strong focus on leveraging data to drive decision-making and optimize performance. Fluent in multiple programming languages and experienced in using advanced analytics tools. 
+    Please visit my portfolio at \href{https://pietrowei.github.io/Portfolio}{pietrowei.github.io/Portfolio} to see my projects and accomplishments in more detail.
 }
-\resumeSubHeadingListEnd
-
-\section{Education}
-\resumeSubHeadingListStart
-    \resumeSubheading
-        {Politecnico di Milano}{September 2020 -- December 2022}
-        {Aerospace Engineering}
-    \resumeSubheading
-        {Università degli Studi di Firenze}{September 2017 -- July 2020}
-        {Mechanical Engineering}
-\resumeSubHeadingListEnd
-
-\section{Research Experience}
-\resumeSubHeadingListStart
-    \resumeSubheading
-        {PEKK/carbon-fiber composite: mode I static and fatigue}{March 2022 -- December 2022}
-        {Politecnico di Milano}{Milan, Italy}
-      \resumeItemListStart
-        \resumeItem{Design and manufacturing of composites specimens}
-        \resumeItem{Laboratory testing of thermo-plastic matrix composites in static and fatigue conditions}
-        \resumeItem{FEM non-linear static and fatigue modeling and analysis}
-        \resumeItem{Parameters fitting through Nelder-Mead algorithm}
-    \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 \section{Work Experience} 
 \resumeSubHeadingListStart
     \resumeSubheading
-      {Research Engineer}{February 2023 -- Present}
+      {Repair Engineer}{March 2024 -- Present}
+      {Leonardo Helicopters}{Milan, Italy}
+      \resumeItemListStart
+        \resumeItem{Analyzed and repaired structural components using data-driven methodologies}
+        \resumeItem{Developed and implemented predictive maintenance models to optimize repair schedules}
+        \resumeItem{Utilized statistical analysis and machine learning techniques to identify failure patterns}
+        \resumeItem{Collaborated with cross-functional teams to improve data collection and reporting processes}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Research Engineer}{February 2023 -- March 2024}
       {Institut Polytechnique de Paris}{Paris, France}
       \resumeItemListStart
         \resumeItem{Experimental and numerical analysis of crack propagation in 3D printed Polycarbonate}
@@ -130,19 +119,29 @@
     \resumeItemListEnd
 \resumeSubHeadingListEnd
 
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+        {Politecnico di Milano}{September 2020 -- December 2022}
+        {Aerospace Engineering}{}
+    \resumeSubheading
+        {Università degli Studi di Firenze}{September 2017 -- July 2020}
+        {Mechanical Engineering}{}
+\resumeSubHeadingListEnd
+
 \section{Specialized Skills}
 \resumeSubHeadingListStart
     \resumeItem{
      \textbf{Programming languages:} Python, R, Matlab, Bash
     }
     \resumeItem{
-     \textbf{Commercial FEM solver:} Abaqus, Nastran, Hypermesh
-    }
-    \resumeItem{
      \textbf{Data Analytics:} SQL, SAS, R, SPSS, Python
     }
     \resumeItem{
      \textbf{Visualization:} Tableau, PowerBI
+    }
+    \resumeItem{
+     \textbf{Machine Learning:} Scikit-learn, TensorFlow, Keras
     }
 \resumeSubHeadingListEnd
 
