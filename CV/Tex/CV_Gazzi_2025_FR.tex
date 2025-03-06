@@ -1,0 +1,161 @@
+\documentclass[letterpaper,10pt]{article} % Taille de police réduite de 11pt à 10pt
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\input{glyphtounicode}
+
+\usepackage{baskervillef}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\setlength{\footskip}{10pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.25in} % Marges réduites
+\addtolength{\evensidemargin}{-0.25in} % Marges réduites
+\addtolength{\textwidth}{0.5in} % Largeur du texte augmentée
+\addtolength{\topmargin}{-0.5in} % Marge supérieure réduite
+\addtolength{\textheight}{1.0in} % Hauteur du texte augmentée
+
+\urlstyle{same}
+
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \it\vspace{1pt} % Réduit de 3pt à 1pt
+}{}{0em}{}[\color{black}\titlerule\vspace{-3pt}] % Réduit de -5pt à -3pt
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1 \vspace{-2pt}} % Réduit de -4pt à -2pt
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item % Réduit de -2pt à -1pt
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-8pt} % Réduit de -10pt à -8pt
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-2pt}} % Réduit de -3pt à -2pt
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE Pietro Gazzi}\\ \vspace{-5pt} % Espace vertical réduit
+    \begin{multicols}{2}
+    \begin{flushleft}
+    \large{93 Rue de la Roquette} \\
+    \large{Paris, 75011 } \\
+    \end{flushleft}
+    
+    \begin{flushright}
+    \href{mailto:pietrogazzi01@gmail.com}{\large{pietrogazzi01@gmail.com}}\\
+    \large{+330745108257} \\
+    \href{https://pietrowei.github.io/Portfolio}{\large{Mon portfolio}}
+    \end{flushright}
+    \end{multicols}
+\end{center}
+
+\section{Résumé Professionnel}
+\resumeSubHeadingListStart
+\item{
+    Ingénieur Aérospatial dynamique avec une vaste expérience en analyse de données, modélisation numérique et gestion des risques. Expérience avérée dans la recherche et l'industrie, avec un fort accent sur l'utilisation des données pour orienter la prise de décision et optimiser les performances. Maîtrise de plusieurs langages de programmation et expérience dans l'utilisation d'outils d'analyse avancés. 
+    Veuillez visiter mon portfolio à \href{https://pietrowei.github.io/Portfolio}{pietrowei.github.io/Portfolio} pour voir mes projets et réalisations en détail.
+}
+\resumeSubHeadingListEnd
+
+\section{Expérience Professionnelle} 
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Ingénieur Réparateur}{Mars 2024 -- Présent}
+      {Leonardo Helicopters}{Rome, Italie}
+      \resumeItemListStart
+        \resumeItem{Analyse et réparation des composants structurels en utilisant des méthodologies basées sur les données}
+        \resumeItem{Développement et mise en œuvre de modèles de maintenance prédictive pour optimiser les calendriers de réparation}
+        \resumeItem{Utilisation de l'analyse statistique et des techniques d'apprentissage automatique pour identifier les schémas de défaillance}
+        \resumeItem{Collaboration avec des équipes interfonctionnelles pour améliorer les processus de collecte et de rapport des données}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Ingénieur de Recherche}{Février 2023 -- Mars 2024}
+      {Institut Polytechnique de Paris}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Analyse expérimentale et numérique de la propagation des fissures dans le polycarbonate imprimé en 3D}
+        \resumeItem{Fabrication additive de spécimens optimisés}
+        \resumeItem{Évaluation numérique du comportement à la fracture}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Analyste Structurel}{Mai 2022 -- Janvier 2023}
+      {Thales Alenia Space, Akka Technologies}{Turin, Italie}
+      \resumeItemListStart
+        \resumeItem{Modélisation FEM de structures primaires et secondaires spatiales}
+        \resumeItem{Analyse statique linéaire, modale, de flambement et de réponse en fréquence}
+        \resumeItem{Post-traitement et analyse des contraintes avec rédaction de rapports de contraintes}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Éducation}
+\resumeSubHeadingListStart
+    \resumeSubheading
+        {Politecnico di Milano}{Septembre 2020 -- Décembre 2022}
+        {Ingénierie Aérospatiale}{}
+    \resumeSubheading
+        {Università degli Studi di Firenze}{Septembre 2017 -- Juillet 2020}
+        {Ingénierie Mécanique}{}
+\resumeSubHeadingListEnd
+
+\section{Compétences Spécialisées}
+\resumeSubHeadingListStart
+    \resumeItem{
+     \textbf{Langages de programmation :} Python, R, Matlab, Bash
+    }
+    \resumeItem{
+     \textbf{Analyse de données :} SQL, SAS, R, SPSS, Python
+    }
+    \resumeItem{
+     \textbf{Visualisation :} Tableau, PowerBI
+    }
+    \resumeItem{
+     \textbf{Apprentissage automatique :} Scikit-learn, TensorFlow, Keras
+    }
+\resumeSubHeadingListEnd
+
+\section{Langues}
+\resumeSubHeadingListStart
+    \resumeItem{
+     \textbf{Italien :} Langue maternelle
+    }
+    \resumeItem{
+     \textbf{Anglais :} Courant
+    }
+    \resumeItem{
+     \textbf{Français :} Courant
+    }
+\resumeSubHeadingListEnd
+
+\end{document}
