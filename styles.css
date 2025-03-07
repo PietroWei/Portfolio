@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #1A237E; /* Grigio scuro per contrasto */
+    background-color: #02056a; /* Dark blue */
     color: #ffffff; /* Testo bianco */
     padding: 1em 0;
     text-align: center;
@@ -36,10 +36,14 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
 }
 
+section h2 {
+    text-align: center; /* Center the section titles */
+}
+
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #4a4a4a; /* Dark gray for contrast */
+    background-color: #02056a; /* Dark blue */
     color: #ffffff;
 }
 
@@ -80,6 +84,10 @@ h1 {
 
 .about-section {
     line-height: 1.6;
+    background-color: #e0f7fa; /* Light blue background for combined sections */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .about-section h2 {
