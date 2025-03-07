@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1741362766 "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025_FR.tex" "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025_FR.pdf" "CV_Gazzi_2025_FR" 1741362766
+["pdflatex"] 1741362766 "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025_FR.tex" "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025_FR.pdf" "CV_Gazzi_2025_FR" 1741362799
   "/etc/texmf/web2c/texmf.cnf" 1741257716 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/baskervillef/zba_taxp3x.enc" 1557869860 2948 c1d39dd7a670e3e3b7a5b5c21cbaa040 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -98,9 +98,9 @@
   "CV_Gazzi_2025_FR.out" 1741362766 282 02599595dc70f11fe57e19c8ab988138 "pdflatex"
   "CV_Gazzi_2025_FR.tex" 1741271451 5880 d1c44dbc900916bbdfb0be8fec4bb122 ""
   (generated)
-  "CV_Gazzi_2025_FR.log"
-  "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025_FR.pdf"
-  "CV_Gazzi_2025_FR.aux"
   "CV_Gazzi_2025_FR.out"
   "CV_Gazzi_2025_FR.pdf"
+  "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025_FR.pdf"
+  "CV_Gazzi_2025_FR.log"
   "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025_FR.log"
+  "CV_Gazzi_2025_FR.aux"
