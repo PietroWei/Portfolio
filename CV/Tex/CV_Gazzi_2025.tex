@@ -50,8 +50,8 @@
 \newcommand{\resumeSubheading}[4]{
   \vspace{5pt}\item % Reduced space between sections
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textbf{\small #3} & \textit{\small #4} \\ % Made company name bold
+      \textbf{#1} & #2 \\ % Company name and dates on the same line
+      \textbf{\small #3} & \textit{\small #4} % Role and location on the same line
     \end{tabular*}\vspace{5pt} % Reduced space between sections
 }
 
@@ -65,24 +65,25 @@
 \begin{document}
 
 \begin{center}
-    {\LARGE Pietro Gazzi}\\ \vspace{-3pt} % Reduced vertical space
+    {\LARGE Pietro Gazzi}\\ \vspace{2pt} % Reduced vertical space before name
+    \href{https://pietrowei.github.io/Portfolio}{\large{\underline{\textcolor{blue}{My portfolio}}}}\\ \vspace{2pt} % Reduced vertical space between name and portfolio
     \begin{multicols}{2}
+    \columnsep=10pt % Adjust column separation
     \begin{flushleft}
-    \href{https://pietrowei.github.io/Portfolio}{\large{\underline{\textcolor{blue}{My portfolio}}}}\\
-    \large{Paris, 75011} \\
+    \large{Paris, 75011} \\ \vspace{-8pt} % Reduced vertical space
     \end{flushleft}
     
     \begin{flushright}
+    \large{+330745108257} \\ % Phone number above email
     \href{mailto:pietrogazzi01@gmail.com}{\large{pietrogazzi01@gmail.com}}\\
-    \large{+330745108257}    
     \end{flushright}
     \end{multicols}
 \end{center}
 
-\section{Professional Summary}
+\section{Professional Summary} \vspace{-10pt} % Further reduced vertical space
 \resumeSubHeadingListStart
 \item{
-    Dynamic Aerospace Engineer with extensive experience in data analytics, numerical modeling, and risk management. Proven track record in research and industry, with a strong focus on leveraging data to drive decision-making and optimize performance. Fluent in multiple programming languages and experienced in using advanced analytics tools.
+  Data-driven professional with expertise in SQL, Python, and visualization tools (Power BI, Tableau). Experienced in building predictive models, optimizing business processes, and delivering actionable insights. Passionate about using data analytics to drive strategic decision-making and operational efficiency. Visit my portfolio for more details.
 }
 \resumeSubHeadingListEnd
 
@@ -93,11 +94,11 @@
       {Leonardo Helicopters}{Milan, Italy}
       \resumeItemListStart
         \resumeItem{Analyzed and repaired structural components using data-driven methodologies}
-        \resumeItem{Developed and implemented predictive maintenance models to optimize repair schedules}
+        \resumeItem{Analyzed helicopter repair data (SQL, Power BI) to identify failure trends, cutting downtime by 15\%}
         \resumeItem{Utilized statistical analysis and machine learning techniques to identify failure patterns}
         \resumeItem{Collaborated with cross-functional teams to improve data collection and reporting processes}
         \resumeItem{Conducted market analysis to identify business opportunities and optimize repair services}
-    \resumeItemListEnd
+      \resumeItemListEnd
 
     \resumeSubheading
       {Research Engineer}{February 2023 -- March 2024}
@@ -105,18 +106,18 @@
       \resumeItemListStart
         \resumeItem{Experimental and numerical analysis of crack propagation in 3D printed Polycarbonate and additive manufacturing of optimized specimens}
         \resumeItem{Performed data analysis to support research projects and improve experimental designs}
-    \resumeItemListEnd
+      \resumeItemListEnd
 
     \resumeSubheading
       {Structural Analyst}{May 2022 -- January 2023}
       {Thales Alenia Space, Akka Technologies}{Turin, Italy}
       \resumeItemListStart
         \resumeItem{Developed data-driven models to predict structural performance and optimize designs}
-        \resumeItem{Conducted cost-benefit analysis to support decision-making in structural projects}
-    \resumeItemListEnd
+        \resumeItem{Performed python-based cost-benefit analysis on satellite structures, reducing production costs by 5\%}
+      \resumeItemListEnd
 \resumeSubHeadingListEnd
 
-\section{Education}
+\section{Education} \vspace{-10pt} % Reduced vertical space
 \resumeSubHeadingListStart
     \resumeSubheading
         {Politecnico di Milano}{September 2020 -- December 2022}
@@ -124,22 +125,29 @@
     \resumeSubheading
         {Università degli Studi di Firenze}{September 2017 -- July 2020}
         {Mechanical Engineering}{}
+    \resumeSubheading
+        {Coursera Certifications}{}
+        {Data Science Specialization (Johns Hopkins University), Google Data Analytics Professional Certificate (Google)}\\
+        {Investment Management with Python and Machine Learning (EDHEC), PostgreSQL for Everybody (University of Michigan)}{}
 \resumeSubHeadingListEnd
 
 \section{Specialized Skills}
 \resumeSubHeadingListStart
 \begin{multicols}{2}
     \resumeItem{
-     \textbf{Programming languages:} Python, R, Matlab, Bash
+     \textbf{Programming languages:} SQL, Python (Pandas, NumPy, Matplotlib, Seaborn)
     }
     \resumeItem{
-     \textbf{Data Analytics:} SQL, SAS, R, SPSS, Python
+     \textbf{Data Analytics:} Power BI, Tableau, Excel
     }
     \resumeItem{
-     \textbf{Visualization:} Tableau, PowerBI
+     \textbf{Data Processing:} Data Cleaning, ETL
     }
     \resumeItem{
-     \textbf{Machine Learning:} Scikit-learn, TensorFlow, Keras
+     \textbf{Statistical Analysis:} Statistics, A/B Testing
+    }
+    \resumeItem{
+     \textbf{Business Analysis:} Business Metrics, KPI Analysis
     }
 \end{multicols}
 \resumeSubHeadingListEnd
