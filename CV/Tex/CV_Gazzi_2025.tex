@@ -1,4 +1,4 @@
-\documentclass[letterpaper,10.5pt]{article} % Reduced font size from 11pt to 10pt
+\documentclass[letterpaper,10.5 pt]{article} % Reduced font size from 11pt to 10pt
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -36,28 +36,28 @@
 \setlength{\tabcolsep}{0in}
 
 \titleformat{\section}{
-  \it\vspace{1pt} % Reduced from 3pt to 1pt
-}{}{0em}{}[\color{black}\titlerule\vspace{-3pt}] % Reduced from -5pt to -3pt
+  \bfseries\vspace{5pt} % Reduced space
+}{}{0em}{}[\color{black}\titlerule\vspace{3pt}] % Adjusted spacing
 
 \pdfgentounicode=1
 
 \newcommand{\resumeItem}[1]{
   \item{
-    {#1 \vspace{-2pt}} % Reduced from -4pt to -2pt
+    {#1 \vspace{-1pt}} % Reduced from -2pt to -1pt
   }
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item % Reduced from -2pt to -1pt
+  \vspace{5pt}\item % Reduced space between sections
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{\small #3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-8pt} % Reduced from -10pt to -8pt
+      \textbf{\small #3} & \textit{\small #4} \\ % Made company name bold
+    \end{tabular*}\vspace{5pt} % Reduced space between sections
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-2pt}} % Reduced from -3pt to -2pt
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}, itemsep=5pt]} % Reduced space between sections
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
@@ -65,17 +65,16 @@
 \begin{document}
 
 \begin{center}
-    {\LARGE Pietro Gazzi}\\ \vspace{-5pt} % Reduced vertical space
+    {\LARGE Pietro Gazzi}\\ \vspace{-3pt} % Reduced vertical space
     \begin{multicols}{2}
     \begin{flushleft}
-    \large{93 Rue de la Roquette} \\
-    \large{Paris, 75011 } \\
+    \href{https://pietrowei.github.io/Portfolio}{\large{\underline{\textcolor{blue}{My portfolio}}}}\\
+    \large{Paris, 75011} \\
     \end{flushleft}
     
     \begin{flushright}
     \href{mailto:pietrogazzi01@gmail.com}{\large{pietrogazzi01@gmail.com}}\\
-    \large{+330745108257} \\
-    \href{https://pietrowei.github.io/Portfolio}{\large{My portfolio}}
+    \large{+330745108257}    
     \end{flushright}
     \end{multicols}
 \end{center}
@@ -83,39 +82,37 @@
 \section{Professional Summary}
 \resumeSubHeadingListStart
 \item{
-    Dynamic Aerospace Engineer with extensive experience in data analytics, numerical modeling, and risk management. Proven track record in research and industry, with a strong focus on leveraging data to drive decision-making and optimize performance. Fluent in multiple programming languages and experienced in using advanced analytics tools. 
-    Please visit my portfolio at \href{https://pietrowei.github.io/Portfolio}{pietrowei.github.io/Portfolio} to see my projects and accomplishments in more detail.
+    Dynamic Aerospace Engineer with extensive experience in data analytics, numerical modeling, and risk management. Proven track record in research and industry, with a strong focus on leveraging data to drive decision-making and optimize performance. Fluent in multiple programming languages and experienced in using advanced analytics tools.
 }
 \resumeSubHeadingListEnd
 
 \section{Work Experience} 
 \resumeSubHeadingListStart
     \resumeSubheading
-      {Repair Engineer}{March 2024 -- Present}
+      {Maintenance Analyst}{June 2024 -- Present}
       {Leonardo Helicopters}{Milan, Italy}
       \resumeItemListStart
         \resumeItem{Analyzed and repaired structural components using data-driven methodologies}
         \resumeItem{Developed and implemented predictive maintenance models to optimize repair schedules}
         \resumeItem{Utilized statistical analysis and machine learning techniques to identify failure patterns}
         \resumeItem{Collaborated with cross-functional teams to improve data collection and reporting processes}
+        \resumeItem{Conducted market analysis to identify business opportunities and optimize repair services}
     \resumeItemListEnd
 
     \resumeSubheading
       {Research Engineer}{February 2023 -- March 2024}
       {Institut Polytechnique de Paris}{Paris, France}
       \resumeItemListStart
-        \resumeItem{Experimental and numerical analysis of crack propagation in 3D printed Polycarbonate}
-        \resumeItem{Additive manufacturing of optimized specimens}
-        \resumeItem{Numerical assessment of fracture behaviour}
+        \resumeItem{Experimental and numerical analysis of crack propagation in 3D printed Polycarbonate and additive manufacturing of optimized specimens}
+        \resumeItem{Performed data analysis to support research projects and improve experimental designs}
     \resumeItemListEnd
 
     \resumeSubheading
       {Structural Analyst}{May 2022 -- January 2023}
       {Thales Alenia Space, Akka Technologies}{Turin, Italy}
       \resumeItemListStart
-        \resumeItem{FEM modelling of space primary and secondary structure}
-        \resumeItem{Linear static, modal, buckling and frequency response analysis}
-        \resumeItem{Post process and stress analysis with stress reports drawn up}
+        \resumeItem{Developed data-driven models to predict structural performance and optimize designs}
+        \resumeItem{Conducted cost-benefit analysis to support decision-making in structural projects}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -131,6 +128,7 @@
 
 \section{Specialized Skills}
 \resumeSubHeadingListStart
+\begin{multicols}{2}
     \resumeItem{
      \textbf{Programming languages:} Python, R, Matlab, Bash
     }
@@ -143,18 +141,13 @@
     \resumeItem{
      \textbf{Machine Learning:} Scikit-learn, TensorFlow, Keras
     }
+\end{multicols}
 \resumeSubHeadingListEnd
 
 \section{Languages}
 \resumeSubHeadingListStart
     \resumeItem{
-     \textbf{Italian:} Native
-    }
-    \resumeItem{
-     \textbf{English:} Fluent
-    }
-    \resumeItem{
-     \textbf{French:} Fluent
+     \textbf{Italian:} Native \hspace{10pt} \textbf{English:} Fluent \hspace{10pt} \textbf{French:} Fluent
     }
 \resumeSubHeadingListEnd
 

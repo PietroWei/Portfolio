@@ -33,7 +33,7 @@ section {
     padding: 1em;
     background-color: #ffffff; /* White background */
     border-radius: 5px;
-    box-shadow: 0 0 10px #f2fcfd; /* Light blue */
+    box-shadow: 0 0 10px #f1faff; /* Light blue */
 }
 
 section h2 {
@@ -71,7 +71,7 @@ h1 {
 }
 
 .project-list li {
-    background-color: #e0e0e0; /* Light gray background for list items */
+    background-color: #f1faff; /* Light blue background for list items */
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -84,7 +84,7 @@ h1 {
 
 .about-section {
     line-height: 1.6;
-    background-color: #f2fcfd; /* Light blue background for combined sections */
+    background-color: #f1faff; /* Light blue background for combined sections */
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
