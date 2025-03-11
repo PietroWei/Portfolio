@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.3.10)  11 MAR 2025 11:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.3.10)  11 MAR 2025 14:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -524,63 +524,65 @@ LaTeX Info: Redefining \nameref on input line 34.
 \c@mv@boldtabular=\count280
 LaTeX Font Info:    Font shape `T1/BaskervilleF-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 38.
-LaTeX Font Info:    Font shape `T1/BaskervilleF-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 39.
+LaTeX Font Info:    Font shape `T1/BaskervilleF-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 39.
+(Font)              <7> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 39.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 39.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 39.
+(Font)              <5> on input line 42.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 42.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Font shape `T1/BaskervilleF-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 42.
+LaTeX Font Info:    Font shape `T1/BaskervilleF-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 52.
 LaTeX Font Info:    Font shape `T1/BaskervilleF-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 52.
-LaTeX Font Info:    Trying to load font information for TS1+BaskervilleF-TLF on input line 58.
+LaTeX Font Info:    Trying to load font information for TS1+BaskervilleF-TLF on input line 57.
  (/usr/share/texlive/texmf-dist/tex/latex/baskervillef/TS1BaskervilleF-TLF.fd
 File: TS1BaskervilleF-TLF.fd 2016/11/15 (autoinst) Font definitions for TS1/BaskervilleF-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/BaskervilleF-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 58.
+(Font)              scaled to size 10.0pt on input line 57.
 LaTeX Font Info:    Font shape `T1/BaskervilleF-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 58.
+(Font)              scaled to size 10.0pt on input line 57.
 LaTeX Font Info:    Font shape `T1/BaskervilleF-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 87.
+(Font)              scaled to size 9.0pt on input line 85.
 
-Underfull \hbox (badness 7667) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+[]\T1/BaskervilleF-TLF/m/n/9 Investment Management with Python and Machine
+ []
+
+
+Underfull \hbox (badness 7667) in paragraph at lines 101--102
 []\T1/BaskervilleF-TLF/b/n/10 Business Intelligence: \T1/BaskervilleF-TLF/m/n/10 Power BI, Tableau, Excel
  []
 
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
 [1
 
 {/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
  (/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
 Package rerunfilecheck Info: File `CV_Gazzi_2025.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
  ) 
 Here is how much of TeX's memory you used:
- 8347 strings out of 481239
- 125000 string characters out of 5920377
+ 8327 strings out of 481239
+ 124781 string characters out of 5920377
  411029 words of memory out of 5000000
- 23437 multiletter control sequences out of 15000+600000
- 656409 words of font info for 53 fonts, out of 8000000 for 9000
+ 23427 multiletter control sequences out of 15000+600000
+ 653252 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,11n,45p,952b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,11n,45p,952b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/baskervillef/zba_taxp3x.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/baskervillef/zba_3oppw2.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/baskervillef/BaskervilleF-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/baskervillef/BaskervilleF-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/baskervillef/BaskervilleF-Regular.pfb>
-Output written on /workspaces/Portfolio/CV/Tex/CV_Gazzi_2025.pdf (2 pages, 84387 bytes).
+Output written on /workspaces/Portfolio/CV/Tex/CV_Gazzi_2025.pdf (1 page, 84322 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
+ 32 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
