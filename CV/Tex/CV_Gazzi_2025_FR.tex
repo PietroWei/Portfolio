@@ -1,154 +1,113 @@
-\documentclass[letterpaper,10pt]{article} % Taille de police réduite de 11pt à 10pt
+\documentclass[letterpaper,10.5pt]{article}
 
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
-\usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
-\usepackage[english]{babel}
-\usepackage{tabularx}
-\usepackage{multicol}
-\input{glyphtounicode}
-
-\usepackage{baskervillef}
+\usepackage{latexsym, fullpage, titlesec, marvosym, color, enumitem, hyperref, fancyhdr, babel, tabularx, multicol}
 \usepackage[T1]{fontenc}
+\usepackage{baskervillef}
+
+% Optimisation des marges
+\addtolength{\oddsidemargin}{-0.3in}
+\addtolength{\evensidemargin}{-0.3in}
+\addtolength{\textwidth}{0.6in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{1.2in}
 
 \pagestyle{fancy}
-\fancyhf{} 
-\fancyfoot{}
-\setlength{\footskip}{10pt}
+\fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-\addtolength{\oddsidemargin}{-0.25in} % Marges réduites
-\addtolength{\evensidemargin}{-0.25in} % Marges réduites
-\addtolength{\textwidth}{0.5in} % Largeur du texte augmentée
-\addtolength{\topmargin}{-0.5in} % Marge supérieure réduite
-\addtolength{\textheight}{1.0in} % Hauteur du texte augmentée
+% Formatage des sections
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\color{black}\titlerule]
 
-\urlstyle{same}
-
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-\titleformat{\section}{
-  \it\vspace{1pt} % Réduit de 3pt à 1pt
-}{}{0em}{}[\color{black}\titlerule\vspace{-3pt}] % Réduit de -5pt à -3pt
-
-\pdfgentounicode=1
-
-\newcommand{\resumeItem}[1]{
-  \item{
-    {#1 \vspace{-2pt}} % Réduit de -4pt à -2pt
-  }
+% Commandes personnalisées
+\newcommand{\resumeEntry}[4]{
+  \item\textbf{#1} \hfill #2\\
+  \textit{#3} \hfill \textit{#4}
 }
 
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item % Réduit de -2pt à -1pt
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small #3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-8pt} % Réduit de -10pt à -8pt
+\newcommand{\resumeDescription}[1]{
+  \vspace{-4pt}\begin{itemize}[leftmargin=0.2in]
+    #1
+  \end{itemize}
 }
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-2pt}} % Réduit de -3pt à -2pt
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
 
 \begin{document}
 
+% En-tête
 \begin{center}
-    {\LARGE Pietro Gazzi}\\ \vspace{-5pt} % Espace vertical réduit
+    {\LARGE Pietro Gazzi}\\
+    \href{https://pietrowei.github.io/Portfolio/index_fr.html}{\large{\underline{Mon Portfolio}}}\\
     \begin{multicols}{2}
-    \begin{flushleft}
-    \href{https://pietrowei.github.io/Portfolio}{\large{\underline{\textcolor{blue}{Mon portfolio}}}}\\
-    \large{Paris, 75011} \\
-    \end{flushleft}
-    
-    \begin{flushright}
-    \href{mailto:pietrogazzi01@gmail.com}{\large{pietrogazzi01@gmail.com}}\\
-    \large{+330745108257}    
-    \end{flushright}
+        \begin{flushleft}
+            \textbf{Paris, 75011}
+        \end{flushleft}
+        \begin{flushright}
+            \href{mailto:pietrogazzi01@gmail.com}{pietrogazzi01@gmail.com}\\
+            +33 0766968051
+        \end{flushright}
     \end{multicols}
 \end{center}
 
-\section{Résumé Professionnel}
-\resumeSubHeadingListStart
-\item{
-    Ingénieur Aérospatial dynamique avec une vaste expérience en analyse de données, modélisation numérique et gestion des risques. Expérience avérée dans la recherche et l'industrie, avec un fort accent sur l'utilisation des données pour orienter la prise de décision et optimiser les performances. Maîtrise de plusieurs langages de programmation et expérience dans l'utilisation d'outils d'analyse avancés.
-}
-\resumeSubHeadingListEnd
+% Résumé Professionnel
+\section*{Résumé Professionnel}
+Professionnel axé sur les données avec expertise en SQL, Python et outils de visualisation (Power BI, Tableau). Expérience en modélisation prédictive, optimisation des processus métier et prise de décision stratégique. Visitez mon portfolio pour plus de détails.
 
-\section{Expérience Professionnelle} 
-\resumeSubHeadingListStart
-    \resumeSubheading
-      {Analyste de Maintenance}{Juin 2024 -- Présent}
-      {Leonardo Helicopters}{Milan, Italie}
-      \resumeItemListStart
-        \resumeItem{Analyse et réparation des composants structurels en utilisant des méthodologies basées sur les données}
-        \resumeItem{Développement et mise en œuvre de modèles de maintenance prédictive pour optimiser les calendriers de réparation}
-        \resumeItem{Utilisation de l'analyse statistique et des techniques d'apprentissage automatique pour identifier les schémas de défaillance}
-        \resumeItem{Collaboration avec des équipes interfonctionnelles pour améliorer les processus de collecte et de rapport des données}
-        \resumeItem{Réalisation d'analyses de marché pour identifier les opportunités commerciales et optimiser les services de réparation}
-    \resumeItemListEnd
+% Expérience Professionnelle
+\section*{Expérience Professionnelle}
+\begin{itemize}[leftmargin=0.2in]
+    \resumeEntry{Analyste de Maintenance}{Leonardo Helicopters, Milan}{Mai 2024 -- Présent}{}
+    \resumeDescription{
+        \item Analyse et réparation des composants structurels en utilisant des méthodologies basées sur les données.
+        \item Analyse des données de réparation des hélicoptères (SQL, Power BI) pour identifier les tendances de défaillance, réduisant le temps d'arrêt de 15\%.
+        \item Utilisation de l'analyse statistique et des techniques d'apprentissage automatique pour identifier les schémas de défaillance.
+        \item Collaboration avec des équipes interfonctionnelles pour améliorer les processus de collecte et de rapport des données.
+        \item Réalisation d'analyses de marché pour identifier les opportunités commerciales et optimiser les services de réparation.
+    }
+    \resumeEntry{Ingénieur de Recherche}{Institut Polytechnique de Paris, Paris}{Fév 2023 -- Mai 2024}{}
+    \resumeDescription{
+        \item Analyse expérimentale et numérique de la propagation des fissures dans le polycarbonate imprimé en 3D et fabrication additive de spécimens optimisés.
+        \item Réalisation d'analyses de données pour soutenir les projets de recherche et améliorer les conceptions expérimentales.
+    }
+    \resumeEntry{Analyste Structurel}{Thales Alenia Space, Turin}{Mai 2022 -- Jan 2023}{}
+    \resumeDescription{
+        \item Développement de modèles basés sur les données pour prédire les performances structurelles et optimiser les conceptions.
+        \item Réalisation d'analyses coûts-avantages basées sur Python sur les structures satellites, réduisant les coûts de production de 5\%.
+    }
+\end{itemize}
 
-    \resumeSubheading
-      {Ingénieur de Recherche}{Février 2023 -- Mars 2024}
-      {Institut Polytechnique de Paris}{Paris, France}
-      \resumeItemListStart
-        \resumeItem{Analyse expérimentale et numérique de la propagation des fissures dans le polycarbonate imprimé en 3D et fabrication additive de spécimens optimisés}
-        \resumeItem{Réalisation d'analyses de données pour soutenir les projets de recherche et améliorer les conceptions expérimentales}
-    \resumeItemListEnd
+% Éducation
+\section*{Éducation}
+\begin{itemize}[leftmargin=0.2in]
+    \resumeEntry{Politecnico di Milano}{Ingénierie Aérospatiale}{Sept 2020 -- Déc 2022}{}
+    \resumeEntry{Università degli Studi di Firenze}{Ingénierie Mécanique}{Sept 2017 -- Juil 2020}{}
+    \resumeEntry{Certifications Coursera}{}{2024-2025}{}
+\end{itemize}
 
-    \resumeSubheading
-      {Analyste Structurel}{Mai 2022 -- Janvier 2023}
-      {Thales Alenia Space, Akka Technologies}{Turin, Italie}
-      \resumeItemListStart
-        \resumeItem{Développement de modèles basés sur les données pour prédire les performances structurelles et optimiser les conceptions}
-        \resumeItem{Réalisation d'analyses coûts-avantages pour soutenir la prise de décision dans les projets structurels}
-    \resumeItemListEnd
-\resumeSubHeadingListEnd
-
-\section{Éducation}
-\resumeSubHeadingListStart
-    \resumeSubheading
-        {Politecnico di Milano}{Septembre 2020 -- Décembre 2022}
-        {Ingénierie Aérospatiale}{}
-    \resumeSubheading
-        {Università degli Studi di Firenze}{Septembre 2017 -- Juillet 2020}
-        {Ingénierie Mécanique}{}
-\resumeSubHeadingListEnd
-
-\section{Compétences Spécialisées}
-\resumeSubHeadingListStart
 \begin{multicols}{2}
-    \resumeItem{
-     \textbf{Langages de programmation :} Python, R, Matlab, Bash
-    }
-    \resumeItem{
-     \textbf{Analyse de données :} SQL, SAS, R, SPSS, Python
-    }
-    \resumeItem{
-     \textbf{Visualisation :} Tableau, PowerBI
-    }
-    \resumeItem{
-     \textbf{Apprentissage automatique :} Scikit-learn, TensorFlow, Keras
-    }
+    \small
+    \begin{itemize}[leftmargin=0.2in, label={-}]
+        \item Spécialisation en Science des Données (Université Johns Hopkins)
+        \item Certificat Professionnel en Analyse de Données (Google)
+    \end{itemize}
+    \begin{itemize}[leftmargin=0.2in, label={-}]
+        \item Gestion des Investissements avec Python et Apprentissage Automatique (EDHEC)
+        \item PostgreSQL pour Tous (Université du Michigan)
+    \end{itemize}
 \end{multicols}
-\resumeSubHeadingListEnd
 
-\section{Langues}
-\resumeSubHeadingListStart
-    \resumeItem{
-     \textbf{Italien :} Langue maternelle \hspace{10pt} \textbf{Anglais :} Courant \hspace{10pt} \textbf{Français :} Courant
-    }
-\resumeSubHeadingListEnd
+% Compétences Spécialisées
+\section*{Compétences Spécialisées}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=0.2in]
+    \item \textbf{Programmation :} SQL, Python (Pandas, NumPy, Matplotlib, Seaborn), LaTeX, HTML, CSS
+    \item \textbf{Analyse de Données :} Power BI, Tableau, Excel
+    \item \textbf{Traitement des Données :} Nettoyage des Données, ETL
+    \item \textbf{Analyse Statistique :} Tests A/B, Métriques d'Affaires
+\end{itemize}
+\end{multicols}
+
+% Langues
+\section*{Langues}
+\textbf{Italien :} Langue maternelle \hspace{10pt} \textbf{Anglais :} Courant \hspace{10pt} \textbf{Français :} Courant
 
 \end{document}

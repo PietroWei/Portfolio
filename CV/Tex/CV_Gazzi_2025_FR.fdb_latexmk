@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1741691461 "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025.tex" "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025.pdf" "CV_Gazzi_2025" 1741691517
+["pdflatex"] 1741691731 "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025_FR.tex" "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025_FR.pdf" "CV_Gazzi_2025_FR" 1741691734
   "/etc/texmf/web2c/texmf.cnf" 1741601681 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/codespace/.texlive2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1741602254 8255715 8ad6bd50198a864abe05e9062d2f8cbc ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/baskervillef/zba_3oppw2.enc" 1557869860 3385 7f7360d19a44eaaa6261c74350e2d04c ""
@@ -102,15 +102,15 @@
   "/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1417732693 4962 9c1069474ff71dbc47d5006555e352d3 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
-  "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025.aux" 1741691461 707 42d5c21a2afa4d105ce82f9cb964ce4c ""
-  "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025.tex" 1741691461 4672 0f9f0b5273f6c9945c43971c04ece325 ""
-  "CV_Gazzi_2025.aux" 1741691461 707 42d5c21a2afa4d105ce82f9cb964ce4c "pdflatex"
-  "CV_Gazzi_2025.out" 1741691461 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "CV_Gazzi_2025.tex" 1741691461 4672 0f9f0b5273f6c9945c43971c04ece325 ""
+  "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025_FR.aux" 1741691731 707 42d5c21a2afa4d105ce82f9cb964ce4c ""
+  "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025_FR.tex" 1741691733 4915 52f8bd334a05cc69509769cf39b143c4 ""
+  "CV_Gazzi_2025_FR.aux" 1741691731 707 42d5c21a2afa4d105ce82f9cb964ce4c "pdflatex"
+  "CV_Gazzi_2025_FR.out" 1741691731 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "CV_Gazzi_2025_FR.tex" 1741691733 4915 52f8bd334a05cc69509769cf39b143c4 ""
   (generated)
-  "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025.pdf"
-  "CV_Gazzi_2025.log"
-  "CV_Gazzi_2025.pdf"
-  "CV_Gazzi_2025.aux"
-  "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025.log"
-  "CV_Gazzi_2025.out"
+  "CV_Gazzi_2025_FR.log"
+  "CV_Gazzi_2025_FR.aux"
+  "CV_Gazzi_2025_FR.pdf"
+  "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025_FR.log"
+  "/workspaces/Portfolio/CV/Tex/CV_Gazzi_2025_FR.pdf"
+  "CV_Gazzi_2025_FR.out"

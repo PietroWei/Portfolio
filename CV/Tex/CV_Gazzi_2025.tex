@@ -1,162 +1,113 @@
-\documentclass[letterpaper,10.5 pt]{article} % Reduced font size from 11pt to 10pt
+\documentclass[letterpaper,10.5pt]{article}
 
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
-\usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
-\usepackage[english]{babel}
-\usepackage{tabularx}
-\usepackage{multicol}
-\input{glyphtounicode}
-
-\usepackage{baskervillef}
+\usepackage{latexsym, fullpage, titlesec, marvosym, color, enumitem, hyperref, fancyhdr, babel, tabularx, multicol}
 \usepackage[T1]{fontenc}
+\usepackage{baskervillef}
+
+% Margins Optimization
+\addtolength{\oddsidemargin}{-0.3in}
+\addtolength{\evensidemargin}{-0.3in}
+\addtolength{\textwidth}{0.6in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{1.2in}
 
 \pagestyle{fancy}
-\fancyhf{} 
-\fancyfoot{}
-\setlength{\footskip}{10pt}
+\fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-\addtolength{\oddsidemargin}{-0.25in} % Reduced margins
-\addtolength{\evensidemargin}{-0.25in} % Reduced margins
-\addtolength{\textwidth}{0.5in} % Increased text width
-\addtolength{\topmargin}{-0.5in} % Reduced top margin
-\addtolength{\textheight}{1.0in} % Increased text height
+% Section Formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\color{black}\titlerule]
 
-\urlstyle{same}
-
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-\titleformat{\section}{
-  \bfseries\vspace{5pt} % Reduced space
-}{}{0em}{}[\color{black}\titlerule\vspace{3pt}] % Adjusted spacing
-
-\pdfgentounicode=1
-
-\newcommand{\resumeItem}[1]{
-  \item{
-    {#1 \vspace{-1pt}} % Reduced from -2pt to -1pt
-  }
+% Custom Commands
+\newcommand{\resumeEntry}[4]{
+  \item\textbf{#1} \hfill #2\\
+  \textit{#3} \hfill \textit{#4}
 }
 
-\newcommand{\resumeSubheading}[4]{
-  \vspace{5pt}\item % Reduced space between sections
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\ % Company name and dates on the same line
-      \textbf{\small #3} & \textit{\small #4} % Role and location on the same line
-    \end{tabular*}\vspace{5pt} % Reduced space between sections
+\newcommand{\resumeDescription}[1]{
+  \vspace{-4pt}\begin{itemize}[leftmargin=0.2in]
+    #1
+  \end{itemize}
 }
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-2pt}} % Reduced from -3pt to -2pt
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}, itemsep=5pt]} % Reduced space between sections
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
 
 \begin{document}
 
+% Header
 \begin{center}
-    {\LARGE Pietro Gazzi}\\ \vspace{2pt} % Reduced vertical space before name
-    \href{https://pietrowei.github.io/Portfolio}{\large{\underline{\textcolor{blue}{My portfolio}}}}\\ \vspace{2pt} % Reduced vertical space between name and portfolio
+    {\LARGE Pietro Gazzi}\\
+    \href{https://pietrowei.github.io/Portfolio}{\large{\underline{My Portfolio}}}\\
     \begin{multicols}{2}
-    \columnsep=10pt % Adjust column separation
-    \begin{flushleft}
-    \large{Paris, 75011} \\ \vspace{-8pt} % Reduced vertical space
-    \end{flushleft}
-    
-    \begin{flushright}
-    \large{+330745108257} \\ % Phone number above email
-    \href{mailto:pietrogazzi01@gmail.com}{\large{pietrogazzi01@gmail.com}}\\
-    \end{flushright}
+        \begin{flushleft}
+            \textbf{Paris, 75011}
+        \end{flushleft}
+        \begin{flushright}
+            \href{mailto:pietrogazzi01@gmail.com}{pietrogazzi01@gmail.com}\\
+            +33 0766968051
+        \end{flushright}
     \end{multicols}
 \end{center}
 
-\section{Professional Summary} \vspace{-10pt} % Further reduced vertical space
-\resumeSubHeadingListStart
-\item{
-  Data-driven professional with expertise in SQL, Python, and visualization tools (Power BI, Tableau). Experienced in building predictive models, optimizing business processes, and delivering actionable insights. Passionate about using data analytics to drive strategic decision-making and operational efficiency. Visit my portfolio for more details.
-}
-\resumeSubHeadingListEnd
+% Professional Summary
+\section*{Professional Summary}
+Data-driven professional with expertise in SQL, Python, and visualization tools (Power BI, Tableau). Experienced in predictive modeling, business process optimization, and strategic decision-making. Visit my portfolio for more details.
 
-\section{Work Experience} 
-\resumeSubHeadingListStart
-    \resumeSubheading
-      {Maintenance Analyst}{June 2024 -- Present}
-      {Leonardo Helicopters}{Milan, Italy}
-      \resumeItemListStart
-        \resumeItem{Analyzed and repaired structural components using data-driven methodologies}
-        \resumeItem{Analyzed helicopter repair data (SQL, Power BI) to identify failure trends, cutting downtime by 15\%}
-        \resumeItem{Utilized statistical analysis and machine learning techniques to identify failure patterns}
-        \resumeItem{Collaborated with cross-functional teams to improve data collection and reporting processes}
-        \resumeItem{Conducted market analysis to identify business opportunities and optimize repair services}
-      \resumeItemListEnd
+% Work Experience
+\section*{Work Experience}
+\begin{itemize}[leftmargin=0.2in]
+    \resumeEntry{Maintenance Analyst}{Leonardo Helicopters, Milan}{May 2024 -- Present}{}
+    \resumeDescription{
+        \item Analyzed and repaired structural components using data-driven methodologies.
+        \item Developed SQL-based dashboards in Power BI, reducing repair turnaround time by 15\% and increasing operational efficiency.
+        \item Utilized statistical analysis and machine learning techniques to identify failure patterns.
+        \item Collaborated with cross-functional teams to improve data collection and reporting processes.
+        \item Conducted market analysis to identify business opportunities and optimize repair services.
+    }
+    \resumeEntry{Research Engineer}{Institut Polytechnique de Paris, Paris}{Feb 2023 -- May 2024}{}
+    \resumeDescription{
+        \item Experimental and numerical analysis of crack propagation in 3D printed Polycarbonate and additive manufacturing of optimized specimens.
+        \item Performed data analysis to support research projects and improve experimental designs.
+    }
+    \resumeEntry{Structural Analyst}{Thales Alenia Space, Turin}{May 2022 -- Jan 2023}{}
+    \resumeDescription{
+        \item Developed data-driven models to predict structural performance and optimize designs.
+        \item Analyzed structural cost-performance trade-offs using Python (Pandas, NumPy), optimizing component design and reducing production costs by 5\%
+    }
+\end{itemize}
 
-    \resumeSubheading
-      {Research Engineer}{February 2023 -- March 2024}
-      {Institut Polytechnique de Paris}{Paris, France}
-      \resumeItemListStart
-        \resumeItem{Experimental and numerical analysis of crack propagation in 3D printed Polycarbonate and additive manufacturing of optimized specimens}
-        \resumeItem{Performed data analysis to support research projects and improve experimental designs}
-      \resumeItemListEnd
+% Education
+\section*{Education}
+\begin{itemize}[leftmargin=0.2in]
+    \resumeEntry{Politecnico di Milano}{Aerospace Engineering}{Sept 2020 -- Dec 2022}{}
+    \resumeEntry{Università degli Studi di Firenze}{Mechanical Engineering}{Sept 2017 -- Jul 2020}{}
+    \resumeEntry{Coursera Certifications}{}{2024-2025}{}
+\end{itemize}
 
-    \resumeSubheading
-      {Structural Analyst}{May 2022 -- January 2023}
-      {Thales Alenia Space, Akka Technologies}{Turin, Italy}
-      \resumeItemListStart
-        \resumeItem{Developed data-driven models to predict structural performance and optimize designs}
-        \resumeItem{Performed python-based cost-benefit analysis on satellite structures, reducing production costs by 5\%}
-      \resumeItemListEnd
-\resumeSubHeadingListEnd
-
-\section{Education} \vspace{-10pt} % Reduced vertical space
-\resumeSubHeadingListStart
-    \resumeSubheading
-        {Politecnico di Milano}{September 2020 -- December 2022}
-        {Aerospace Engineering}{}
-    \resumeSubheading
-        {Università degli Studi di Firenze}{September 2017 -- July 2020}
-        {Mechanical Engineering}{}
-    \resumeSubheading
-        {Coursera Certifications}{}
-        {Data Science Specialization (Johns Hopkins University), Google Data Analytics Professional Certificate (Google)}\\
-        {Investment Management with Python and Machine Learning (EDHEC), PostgreSQL for Everybody (University of Michigan)}{}
-\resumeSubHeadingListEnd
-
-\section{Specialized Skills}
-\resumeSubHeadingListStart
 \begin{multicols}{2}
-    \resumeItem{
-     \textbf{Programming languages:} SQL, Python (Pandas, NumPy, Matplotlib, Seaborn)
-    }
-    \resumeItem{
-     \textbf{Data Analytics:} Power BI, Tableau, Excel
-    }
-    \resumeItem{
-     \textbf{Data Processing:} Data Cleaning, ETL
-    }
-    \resumeItem{
-     \textbf{Statistical Analysis:} Statistics, A/B Testing
-    }
-    \resumeItem{
-     \textbf{Business Analysis:} Business Metrics, KPI Analysis
-    }
+    \small
+    \begin{itemize}[leftmargin=0.2in, label={-}]
+        \item Data Science Specialization (Johns Hopkins University)
+        \item Google Data Analytics Professional Certificate (Google)
+    \end{itemize}
+    \begin{itemize}[leftmargin=0.2in, label={-}]
+        \item Investment Management with Python and Machine Learning (EDHEC)
+        \item PostgreSQL for Everybody (University of Michigan)
+    \end{itemize}
 \end{multicols}
-\resumeSubHeadingListEnd
 
-\section{Languages}
-\resumeSubHeadingListStart
-    \resumeItem{
-     \textbf{Italian:} Native \hspace{10pt} \textbf{English:} Fluent \hspace{10pt} \textbf{French:} Fluent
-    }
-\resumeSubHeadingListEnd
+% Specialized Skills
+\section*{Specialized Skills}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=0.2in]
+    \item \textbf{Data Processing:} Data Cleaning, ETL, Data Wrangling
+    \item \textbf{Business Intelligence:} Power BI, Tableau, Excel (Advanced)
+    \item \textbf{Programming:} SQL (PostgreSQL, MySQL), Python (Pandas, NumPy, Matplotlib, Seaborn), LaTeX, HTML, CSS
+    \item \textbf{Statistical Analysis:} A/B Testing, Regression Analysis, Business Metrics, Time Series Forecasting
+\end{itemize}
+\end{multicols}
+
+% Languages
+\section*{Languages}
+\textbf{Italian:} Native \hspace{10pt} \textbf{English:} Fluent \hspace{10pt} \textbf{French:} Fluent
 
 \end{document}
