@@ -33,7 +33,7 @@ section {
     padding: 1em;
     background-color: #ffffff; /* White background */
     border-radius: 5px;
-    box-shadow: 0 0 10px #e0e0e0; /* Very light gray */
+    box-shadow: 0 0 10px #f0f0f0; /* Even lighter gray */
 }
 
 section h2 {
@@ -71,7 +71,7 @@ h1 {
 }
 
 .project-list li {
-    background-color: #e0e0e0; /* Very light gray background for list items */
+    background-color: #f0f0f0; /* Even lighter gray background for list items */
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -84,7 +84,7 @@ h1 {
 
 .about-section {
     line-height: 1.6;
-    background-color: #e0e0e0; /* Very light gray background for combined sections */
+    background-color: #f0f0f0; /* Even lighter gray background for combined sections */
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -112,7 +112,7 @@ h1 {
     text-align: center;
     margin-bottom: 2em;
     border-radius: 5px;
-    box-shadow: 0 0 10px #e0e0e0; /* Very light gray shadow for depth */
+    box-shadow: 0 0 10px #f0f0f0; /* Even lighter gray shadow for depth */
 }
 
 .mini-index ul {
