@@ -22,6 +22,18 @@ header {
     width: auto;
     border: 2px solid #ffffff; /* Aggiunge un bordo bianco */
 }
+
+.profile-image-left {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 10px; /* Adjust as needed */
+    transform: translateY(-50%); /* Center vertically */
+    max-height: 120px; /* Max height */
+    width: auto;
+    border: 2px solid #ffffff; /* Add a white border */
+    border-radius: 50%; /* Make the image rounded */
+}
+
 nav a {
     color: #ffffff;
     margin: 0 1em;
@@ -147,6 +159,14 @@ h1 {
         display: block;
         margin: 0 0 10px auto; /* Align the image to the right and add margin */
         max-height: 50px; /* Make the image really small */
+    }
+
+    .profile-image-left {
+        position: static; /* Remove absolute positioning */
+        display: block;
+        margin: 0 auto 10px 0; /* Align the image to the left and add margin */
+        max-height: 50px; /* Make the image really small */
+        border-radius: 50%; /* Make the image rounded */
     }
 
     nav a {
