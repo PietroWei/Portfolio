@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.3.12)  14 MAR 2025 13:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.3.12)  18 MAR 2025 08:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -72,6 +72,32 @@ LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 
+/workspaces/Portfolio/CV/Tex/Motivation_FR.tex:15: Misplaced alignment tab character &.
+l.15 ... au sein de votre équipe Data Analytics &
+                                                   Reporting, je suis partic...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (2.13945pt too wide) in paragraph at lines 15--16
+\OT1/cmr/m/n/10 je suis particuli^^Rerement attir^^Se par les missions propos^^Sees par SEPHORA, incluant
+ []
+
+
+Overfull \hbox (4.91618pt too wide) in paragraph at lines 15--16
+\OT1/cmr/m/n/10 la conception et l'ex^^Secution de requ^etes SQL avanc^^Sees dans BigQuery, l'agr^^Segation
+ []
+
+
+Overfull \hbox (47.97293pt too wide) in paragraph at lines 15--16
+\OT1/cmr/m/n/10 efficace des donn^^Sees sur Google Cloud Platform (GCP), le d^^Seveloppement d'automatisations
+ []
+
+
 Overfull \hbox (4.8247pt too wide) in paragraph at lines 17--18
 \OT1/cmr/m/n/10 m'^^Sepanouir au sein de votre ^^Sequipe. Je suis motiv^^Se par l'opportunit^^Se de contribuer
  []
@@ -94,15 +120,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/workspaces/Portfolio/CV/Tex/Motivation_FR.aux) ) 
 Here is how much of TeX's memory you used:
- 934 strings out of 483107
- 14519 string characters out of 5964630
+ 935 strings out of 483107
+ 14527 string characters out of 5964630
  252065 words of memory out of 5000000
- 16019 multiletter control sequences out of 15000+600000
+ 16020 multiletter control sequences out of 15000+600000
  532338 words of font info for 24 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 25i,6n,21p,451b,186s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,6n,21p,664b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on /workspaces/Portfolio/CV/Tex/Motivation_FR.pdf (1 page, 22072 bytes).
+Output written on /workspaces/Portfolio/CV/Tex/Motivation_FR.pdf (1 page, 23547 bytes).
 PDF statistics:
  12 PDF objects out of 1000 (max. 8388607)
  7 compressed objects within 1 object stream
