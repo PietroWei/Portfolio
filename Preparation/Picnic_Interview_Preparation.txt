@@ -1,0 +1,171 @@
+Interview Preparation - Picnic Business Analyst
+
+1. Presentation - Tell Me About Yourself
+
+Hello, my name is Pietro Gazzi, and I am an engineer with a strong background in data analysis, 
+problem-solving, and leveraging technology to drive business decisions. I hold a Master’s degree 
+in Mechanical Engineering and Space Engineering, and I have 3 years of experience working as a data 
+analyst in fast-paced environments. My expertise lies in using SQL and Python to analyze data, 
+identify trends, and develop strategies that drive business impact. 
+
+I have had the opportunity to work in various countries and industries, which has enriched my 
+professional experience and adaptability. In Italy, I worked at Leonardo Helicopters, where I 
+developed SQL-based dashboards in Power BI, reducing repair turnaround time by 15% and increasing 
+operational efficiency. In France, I served as a Research Engineer at the Institut Polytechnique de 
+Paris, focusing on experimental and numerical analysis of crack propagation in 3D printed 
+Polycarbonate.
+
+These diverse roles have honed my ability to solve complex problems and use data to drive innovation 
+and improve decision-making processes. I am passionate about leveraging my technical skills and 
+analytical mindset to make a tangible impact on business outcomes.
+
+I am particularly drawn to Picnic’s data-driven approach, international expansion, and culture of 
+innovation. I want to be part of a company that challenges the status quo and continuously improves 
+the online grocery experience. My goal is to contribute by optimizing decision-making through 
+analytics, automating processes, and identifying strategic opportunities to drive growth.
+
+This role aligns with my ambition to work in a dynamic environment where I can apply my technical 
+expertise while also developing strategic thinking. I am eager to take ownership of impactful 
+projects and work with a team that values innovation and efficiency.
+
+2. Entrepreneurial Spirit
+
+Project 1: Optimizing Helicopter Repair Data Management (STAR Method)
+
+Situation: In my current role at Leonardo Helicopters, I identified inefficiencies in the way 
+helicopter repair data was being managed. The existing system made it difficult to track repair 
+status and analyze trends.
+
+Task: My objective was to create a structured data framework to improve accessibility and 
+decision-making.
+
+Action: I designed and implemented a Power BI dashboard connected to a PostgreSQL database, which 
+automated reporting and provided real-time insights on repair cycles and failure rates.
+
+Result: The solution reduced data retrieval time by 60%, improved issue tracking, and helped 
+management make faster, data-driven decisions, ultimately reducing repair lead times.
+
+Backup Project: Customer Relationship Management (CRM) System (STAR Method)
+
+Situation: I collaborated extensively with engineers working on the CRM system in my company. 
+As a personal project, I decided to develop a CRM system to better understand the process, 
+complications, and development points.
+
+Task: My objective was to create an integrated system that provides valuable insights for 
+improving customer relationships and business strategies.
+
+Action: I designed and implemented a CRM system using PostgreSQL, Python, and Power BI. 
+The system automated data management, provided real-time insights, and facilitated better 
+decision-making.
+
+Result: The CRM system improved data accessibility, enhanced customer relationship management, 
+and provided actionable insights that could be used to drive business growth.
+
+3. Why This Role is the Next Logical Step
+
+- At Leonardo, I honed my skills in data-driven decision-making, but I am eager to transition into a role 
+  with a more significant business impact.
+- Picnic's emphasis on innovative problem-solving within a dynamic, international setting aligns perfectly 
+  with my aspiration to tackle strategic challenges.
+- I am particularly attracted to Picnic's ownership culture, where business analysts are responsible for 
+  their projects from conception to execution.
+- This role presents an opportunity to utilize my technical expertise (SQL, Python, data visualization) 
+  while delving deeper into business strategy and large-scale operations.
+
+4. Why Picnic?
+
+- Picnic's innovative business model—short supply chain, app-first approach, and data-driven logistics—
+  resonates with my passion for leveraging technology to solve complex problems.
+- I am inspired by Picnic's commitment to continuous improvement and innovation across multiple markets 
+  (France, Netherlands, Germany), which aligns with my desire to work in a dynamic, international environment.
+- The startup-like environment with structured growth opportunities is the perfect setting for my skills 
+  and ambitions, allowing me to make a tangible impact.
+- The 'Pippi Longstocking' mindset of tackling unfamiliar challenges with a data-driven and adaptable approach 
+  is something I deeply relate to and thrive in.
+
+5. Out-of-the-Box Questions & My Approach
+
+Picnic mentioned they like to ask unexpected questions. Here are some potential ones and how I’d 
+answer them:
+
+Q: If you had to design a new feature for the Picnic app, what would it be?
+A predictive order system that suggests grocery lists based on past purchases and external factors 
+like weather, public holidays, and personal health goals.
+
+Q: How would you reduce food waste at Picnic?
+Dynamic discounting for near-expiry products, demand forecasting using ML, and customer incentives 
+for purchasing surplus stock.
+
+Q: If Picnic were to expand to a new country, which one would you choose and why?
+Spain—urban density, increasing e-grocery adoption, and strong fresh food culture make it a 
+promising market.
+
+Q: What’s a business problem unrelated to Picnic that you’d love to solve?
+Improving public transport efficiency using AI-driven predictive maintenance and route optimization.
+
+Q: How would you improve the efficiency of public healthcare systems?
+Implementing AI-driven diagnostics and predictive analytics to optimize resource allocation and 
+reduce patient wait times.
+
+Q: What innovative solution would you propose for sustainable urban development?
+Developing smart city infrastructure that integrates IoT devices for real-time monitoring and 
+management of resources like water, energy, and waste.
+
+Q: How would you tackle the issue of global education inequality?
+Creating an online platform that provides free, high-quality educational resources and personalized 
+learning paths for students in underserved regions.
+
+Q: How would you approach the challenge of reducing carbon emissions in the logistics industry?
+Implementing electric and autonomous delivery vehicles, optimizing delivery routes using AI, and 
+investing in carbon offset programs.
+
+Q: What strategies would you use to enhance customer engagement for an e-commerce platform?
+Personalized marketing campaigns, loyalty programs, and interactive features like live chat support 
+and user-generated content.
+
+Q: How would you leverage data analytics to improve the performance of a sports team?
+Analyzing player performance metrics, injury data, and game statistics to optimize training 
+regimens, game strategies, and player selection.
+
+Q: What measures would you take to ensure data privacy and security in a data-driven organization?
+Implementing robust encryption methods, regular security audits, employee training on data 
+protection, and compliance with relevant regulations like GDPR.
+
+Q: How would you use technology to improve the efficiency of supply chain management?
+Integrating IoT devices for real-time tracking, using blockchain for transparent transactions, and 
+employing AI for demand forecasting and inventory management.
+
+Q: What approach would you take to foster innovation within a team?
+Encouraging a culture of experimentation, providing resources for continuous learning, and 
+facilitating cross-functional collaboration to generate diverse ideas.
+
+Q: How would you address the challenge of employee burnout in a high-pressure work environment?
+Implementing flexible work schedules, promoting a healthy work-life balance, and providing access 
+to mental health resources and support.
+
+Q: What steps would you take to improve the user experience of a mobile application?
+Conducting user research and usability testing, simplifying the user interface, and continuously 
+iterating based on user feedback and analytics.
+
+6. Questions for Picnic
+
+Traditional Questions:
+- What are the biggest challenges Picnic faces in scaling across new markets?
+- Can you share an example of a high-impact project that a business analyst has led recently?
+- How does Picnic integrate data analytics into strategic decision-making?
+- What does success look like for a business analyst in the first six months?
+
+Out-of-the-Box Questions:
+- If Picnic had to collaborate with another company outside the grocery industry, who would be the 
+  ideal partner and why?
+- How would you describe the company's culture using a movie or book reference?
+- If Picnic had unlimited resources for one innovative project, what would it be?
+
+7. Final Notes
+
+- Keep responses concise and impactful.
+- Maintain a structured yet natural delivery.
+- Demonstrate curiosity and an analytical mindset.
+- Show enthusiasm and adaptability.
+
+Good luck with the interview!
