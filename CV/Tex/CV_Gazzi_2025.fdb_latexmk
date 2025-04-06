@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1743963384 "c:/Users/pietr/Desktop/Portfolio/Portfolio/CV/Tex/CV_Gazzi_2025_FR.tex" "CV_Gazzi_2025_FR.pdf" "CV_Gazzi_2025_FR" 1743963387
-  "CV_Gazzi_2025_FR.aux" 1743963386 630 dfe88f87fd32498081248244af63d831 "pdflatex"
-  "CV_Gazzi_2025_FR.out" 0 -1 0 "pdflatex"
-  "CV_Gazzi_2025_FR.tex" 1743963382 5597 9326969f32790c0976720e4e69a58d70 ""
-  "c:/Users/pietr/Desktop/Portfolio/Portfolio/CV/Tex/CV_Gazzi_2025_FR.tex" 1743963382 5597 9326969f32790c0976720e4e69a58d70 ""
+["pdflatex"] 1743963346 "c:/Users/pietr/Desktop/Portfolio/Portfolio/CV/Tex/CV_Gazzi_2025.tex" "CV_Gazzi_2025.pdf" "CV_Gazzi_2025" 1743963350
+  "CV_Gazzi_2025.aux" 1743963349 630 f27da0de2cb927a9652e120483ca879d "pdflatex"
+  "CV_Gazzi_2025.out" 0 -1 0 "pdflatex"
+  "CV_Gazzi_2025.tex" 1743963345 5163 52672cee139022982e3aed84e63a3bc1 ""
+  "c:/Users/pietr/Desktop/Portfolio/Portfolio/CV/Tex/CV_Gazzi_2025.tex" 1743963345 5163 52672cee139022982e3aed84e63a3bc1 ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/baskervillef/zba_qiwnw4.enc" 1656422249 3481 ad9269439d55c11e0fe7fbf7b598f37f ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/baskervillef/zba_uf5aa7.enc" 1656422249 2988 9dc2712ba6e6dcb67c459dabfcdb6a75 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1656423409 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -99,7 +99,7 @@
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1656426679 2863980 6758f24da384a3569a36895abc167073 ""
   "c:/texlive/2022/texmf.cnf" 1656426421 713 e69b156964470283e0530f5060668171 ""
   (generated)
-  "CV_Gazzi_2025_FR.aux"
-  "CV_Gazzi_2025_FR.log"
-  "CV_Gazzi_2025_FR.out"
-  "CV_Gazzi_2025_FR.pdf"
+  "CV_Gazzi_2025.aux"
+  "CV_Gazzi_2025.log"
+  "CV_Gazzi_2025.out"
+  "CV_Gazzi_2025.pdf"

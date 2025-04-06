@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.28)  15 MAR 2025 18:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.28)  6 APR 2025 20:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -535,13 +535,8 @@ LaTeX Font Info:    Font shape `T1/BaskervilleF-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/BaskervilleF-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 53.
 
-Overfull \hbox (5.17815pt too wide) in paragraph at lines 54--55
-\T1/BaskervilleF-TLF/m/n/10 Tableau). Expérience en analyse de données, modélisation prédictive et intelligence d'affaires, avec un accent sur la transformation
- []
-
-
-Overfull \hbox (12.95813pt too wide) in paragraph at lines 54--55
-\T1/BaskervilleF-TLF/m/n/10 stratégique pour soutenir la croissance et l'efficacité des entreprises. Capacité avérée à collaborer avec des équipes interfonctionnelles
+Overfull \hbox (15.17848pt too wide) in paragraph at lines 54--55
+\T1/BaskervilleF-TLF/m/n/10 de données complexes en informations exploitables. Compétent en optimisation des processus et en collaboration interfonctionnelle
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+BaskervilleF-TLF on input line 59.
@@ -569,7 +564,10 @@ Overfull \hbox (1.05449pt too wide) in paragraph at lines 76--76
 
 LaTeX Font Info:    Font shape `T1/BaskervilleF-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 87.
-[1
+
+Overfull \vbox (2.63599pt too high) has occurred while \output is active []
+
+ [1
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./CV_Gazzi_2025_FR.aux)
 Package rerunfilecheck Info: File `CV_Gazzi_2025_FR.out' has not changed.
@@ -578,13 +576,13 @@ Package rerunfilecheck Info: File `CV_Gazzi_2025_FR.out' has not changed.
 Here is how much of TeX's memory you used:
  11876 strings out of 478037
  188370 string characters out of 5843053
- 521294 words of memory out of 5000000
+ 524294 words of memory out of 5000000
  30145 multiletter control sequences out of 15000+600000
  590890 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,919b,497s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,11n,77p,689b,497s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/baskervillef/zba_uf5aa7.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/baskervillef/zba_qiwnw4.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/baskervillef/BaskervilleF-Bold.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/baskervillef/BaskervilleF-Italic.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/baskervillef/BaskervilleF-Regular.pfb>
-Output written on CV_Gazzi_2025_FR.pdf (2 pages, 92199 bytes).
+Output written on CV_Gazzi_2025_FR.pdf (2 pages, 91701 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
