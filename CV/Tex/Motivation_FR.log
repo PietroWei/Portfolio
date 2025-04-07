@@ -1,60 +1,47 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.3.12)  18 MAR 2025 08:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.28)  7 APR 2025 20:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/workspaces/Portfolio/CV/Tex/Motivation_FR.tex
-(/workspaces/Portfolio/CV/Tex/Motivation_FR.tex
-LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/letter.cls
-Document Class: letter 2014/09/29 v1.2z Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+**c:/Users/pietr/Desktop/Portfolio/Portfolio/CV/Tex/Motivation_FR.tex
+(c:/Users/pietr/Desktop/Portfolio/Portfolio/CV/Tex/Motivation_FR.tex
+LaTeX2e <2022-06-01> patch level 3
+L3 programming layer <2022-06-16> (c:/texlive/2022/texmf-dist/tex/latex/base/letter.cls
+Document Class: letter 2021/12/07 v1.3c Standard LaTeX document class
+(c:/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\longindentation=\dimen134
-\indentedwidth=\dimen135
-\labelcount=\count167
-) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
-) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2020/02/14 3.40 The Babel package
- (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2020/02/14 3.40 Babel switching mechanism
-)
-
-/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty:542: Package babel Error: Unknown option `french'. Either you misspelled it
-(babel)                or the language definition file french.ldf was not found.
-
-See the babel package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.542 \ProcessOptions*
-                      
-Valid options are: shorthands=, KeepShorthandsActive,
-activeacute, activegrave, noconfigs, safe=, main=, math=
-headfoot=, strings=, config=, hyphenmap=, or a language name.
-
-Package babel Info: You haven't specified a language. I'll use 'nil'
-(babel)             as the main language. Reported on input line 572.
-(/usr/share/texlive/texmf-dist/tex/generic/babel/nil.ldf
-Language: nil 2020/02/14 3.40 Nil language
- (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2020/02/14 3.40 Babel common definitions
-\babel@savecnt=\count168
-\U@D=\dimen136
- (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\longindentation=\dimen138
+\indentedwidth=\dimen139
+\labelcount=\count185
+) (c:/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (c:/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/06/26 3.77 The Babel package
+\babel@savecnt=\count186
+\U@D=\dimen140
+\l@unhyphenated=\language87
+ (c:/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count169
-)
-\l@nil=\language7
-)) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count170
-\l__pdf_internal_box=\box45
-) (/workspaces/Portfolio/CV/Tex/Motivation_FR.aux)
+\bbl@dirlevel=\count187
+ (c:/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 108.
+)) (c:/texlive/2022/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count188
+\l__pdf_internal_box=\box51
+) (./Motivation_FR.aux)
 \openout1 = `Motivation_FR.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -71,66 +58,25 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
-
-/workspaces/Portfolio/CV/Tex/Motivation_FR.tex:15: Misplaced alignment tab character &.
-l.15 ... au sein de votre équipe Data Analytics &
-                                                   Reporting, je suis partic...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Overfull \hbox (2.13945pt too wide) in paragraph at lines 15--16
-\OT1/cmr/m/n/10 je suis particuli^^Rerement attir^^Se par les missions propos^^Sees par SEPHORA, incluant
- []
-
-
-Overfull \hbox (4.91618pt too wide) in paragraph at lines 15--16
-\OT1/cmr/m/n/10 la conception et l'ex^^Secution de requ^etes SQL avanc^^Sees dans BigQuery, l'agr^^Segation
- []
-
-
-Overfull \hbox (47.97293pt too wide) in paragraph at lines 15--16
-\OT1/cmr/m/n/10 efficace des donn^^Sees sur Google Cloud Platform (GCP), le d^^Seveloppement d'automatisations
- []
-
-
-Overfull \hbox (4.8247pt too wide) in paragraph at lines 17--18
-\OT1/cmr/m/n/10 m'^^Sepanouir au sein de votre ^^Sequipe. Je suis motiv^^Se par l'opportunit^^Se de contribuer
- []
-
-
-Overfull \hbox (5.8061pt too wide) in paragraph at lines 19--20
-[]\OT1/cmr/m/n/10 Je vous remercie de l'attention port^^See ^^Ra ma candidature et reste ^^Ra votre disposition
- []
-
-
-Overfull \hbox (17.91727pt too wide) in paragraph at lines 19--20
-\OT1/cmr/m/n/10 pour un entretien afin de vous exposer plus en d^^Setail mes motivations et comp^^Setences. 
- []
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 21.
+(Font)              <7> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 21.
-[1
+(Font)              <5> on input line 19.
+ [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/workspaces/Portfolio/CV/Tex/Motivation_FR.aux) ) 
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Motivation_FR.aux) ) 
 Here is how much of TeX's memory you used:
- 935 strings out of 483107
- 14527 string characters out of 5964630
- 252065 words of memory out of 5000000
- 16020 multiletter control sequences out of 15000+600000
- 532338 words of font info for 24 fonts, out of 8000000 for 9000
- 59 hyphenation exceptions out of 8191
- 25i,6n,21p,664b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on /workspaces/Portfolio/CV/Tex/Motivation_FR.pdf (1 page, 23547 bytes).
+ 1385 strings out of 478037
+ 25912 string characters out of 5843053
+ 340297 words of memory out of 5000000
+ 19883 multiletter control sequences out of 15000+600000
+ 469259 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,7n,52p,473b,193s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on Motivation_FR.pdf (1 page, 22741 bytes).
 PDF statistics:
- 12 PDF objects out of 1000 (max. 8388607)
+ 13 PDF objects out of 1000 (max. 8388607)
  7 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
