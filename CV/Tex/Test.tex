@@ -1,0 +1,123 @@
+% !TEX TS-program = latexmk
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage{latexsym, fullpage, titlesec, marvosym, color, enumitem, hyperref, fancyhdr, babel, tabularx, multicol}
+\usepackage[T1]{fontenc}
+\usepackage{baskervillef}
+
+% Margins Optimization
+\addtolength{\oddsidemargin}{-0.4in}
+\addtolength{\evensidemargin}{-0.4in}
+\addtolength{\textwidth}{0.8in}
+\addtolength{\topmargin}{-0.8in}
+\addtolength{\textheight}{1.2in}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Section Formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\color{black}\titlerule]
+\titlespacing*{\section}{0pt}{*0.5}{*0.5}
+
+% Custom Commands
+\newcommand{\resumeEntry}[4]{
+\item\textbf{#1} \hfill #2\
+\textit{#3} \hfill \textit{#4}
+}
+
+\newcommand{\resumeDescription}[1]{
+\vspace{-3pt}\begin{itemize}[leftmargin=0.2in]
+#1
+\end{itemize}
+}
+
+\begin{document}
+
+% Header
+\begin{center}\vspace{-10pt}
+{\LARGE Pietro Gazzi}\vspace{-11pt}
+\begin{multicols}{2}
+\begin{flushleft}
+\textbf{Paris, 75011 (Monthly)}\
+\href{https://pietrowei.github.io/Portfolio}{\underline{My Portfolio}}
+\end{flushleft}
+\begin{flushright}
+\href{mailto:pietrogazzi01@gmail.com}{pietrogazzi01@gmail.com}\
++33 0766968051
+\end{flushright}
+\end{multicols}
+\end{center}
+
+% Professional Summary
+\section*{Professional Summary}
+Product Analyst with 3+ years of experience driving data-driven growth in B2B and research environments. Proficient in SQL, Python, and analytics tools (Looker, Power BI), with hands-on expertise in experiment design, feature instrumentation, and metric development. Passionate about leveraging data to optimize operations, reduce waste, and empower retailers—aligned with Too Good To Go’s mission to fight food waste and deliver measurable impact.
+
+% Specialized Skills
+\section*{Key Skills}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=0.2in]
+\item \textbf{Product Analytics:} Experimentation, AB Testing, Feature Instrumentation, Metrics Frameworks (OKRs, KPIs)
+\item \textbf{Data Stack:} SQL (PostgreSQL, MySQL), Python (Pandas, NumPy), BigQuery / Redshift
+\item \textbf{Visualization & BI:} Looker, Power BI, Tableau
+\item \textbf{Automation \ & APIs:} Python scripting, API integration, Airflow workflows
+\item \textbf{Analytics SDKs:} Amplitude, Mixpanel, Google Analytics
+\item \textbf{Collaboration:} Agile, Jira, Confluence
+\end{itemize}
+\end{multicols}
+
+% Work Experience
+\section*{Work Experience}
+\begin{itemize}[leftmargin=0.2in]
+\resumeEntry{Data Analyst, Product Insights}{Leonardo Helicopters — Milan}{May 2024 -- Present}{}
+\resumeDescription{
+\item Partnered with product and operations teams to define 5+ key metrics for maintenance workflows, tracked via SQL and Airflow pipelines.
+\item Built Power BI dashboards integrated with real-time data sources, enabling a 15% reduction in repair turnaround time.
+\item Designed and A/B tested predictive maintenance features; provided data-driven recommendations that improved process adherence by 20%.
+\item Automated data validations via Python scripts and API calls, reducing manual reporting effort by 8 hours/week.
+}
+\resumeEntry{Research Engineer, Data Analytics}{Institut Polytechnique de Paris — Paris}{Feb 2023 -- May 2024}{}
+\resumeDescription{
+    \item Conducted quantitative research on additive manufacturing processes; applied regression and time-series forecasting to optimize experimental parameters.
+    \item Developed Python tooling to instrument tracking of process variables, enabling automated anomaly detection in laboratory workflows.
+    \item Collaborated on cross-functional prototypes for data-driven decision support, presenting insights to senior stakeholders.
+}
+
+\resumeEntry{Engineering Analyst}{Thales Alenia Space — Turin}{May 2022 -- Jan 2023}{}
+\resumeDescription{
+    \item Created data models in Python and SQL to predict structural performance, informing design trade-offs and reducing component cost by 5\%.
+    \item Instrumented performance-tracking dashboards in Tableau, standardizing reporting for engineering teams and cutting analysis time by 30\%.
+}
+\end{itemize}
+
+% Relevant Projects
+\section*{Select Projects}
+\begin{itemize}[leftmargin=0.2in]
+\item \textbf{Surplus Detection Prototype:} Designed a Python/SQL prototype to flag products nearing expiry using rolling-window analytics; reduced miss-rate by 18%.
+\item \textbf{Retailer Insights Dashboard:} Built an interactive Looker dashboard for business users to monitor discount uptake and donation flows; scaled to 50+ stores.
+\item \textbf{Experimentation Framework:} Developed standardized AB test templates and documentation, decreasing setup time from weeks to days.
+\end{itemize}
+
+% Education
+\section*{Education}
+\begin{itemize}[leftmargin=0.2in]
+\resumeEntry{Politecnico di Milano}{M.Sc.\ Industrial Engineering}{Sept 2020 -- Dec 2022}{}
+\resumeEntry{Università degli Studi di Firenze}{B.Sc.\ Mechanical Engineering}{Sept 2017 -- Jul 2020}{}
+\end{itemize}
+
+% Certifications
+\section*{Certifications}
+\begin{itemize}[leftmargin=0.2in]
+\item Investment Management with Python & Machine Learning (EDHEC)
+\item Google Data Analytics Professional Certificate (Google)
+\item Data Science Specialization (Johns Hopkins)
+\item PostgreSQL for Everybody (University of Michigan)
+\end{itemize}
+
+% Languages
+\section*{Languages}
+\textbf{Italian:} Native \quad \textbf{English:} Full professional proficiency \
+\textbf{French:} Full professional proficiency \quad \textbf{German:} Beginner
+
+\end{document}
