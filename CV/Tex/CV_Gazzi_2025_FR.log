@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.28)  7 APR 2025 20:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.28)  28 APR 2025 15:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -535,8 +535,8 @@ LaTeX Font Info:    Font shape `T1/BaskervilleF-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/BaskervilleF-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 53.
 
-Overfull \hbox (15.17848pt too wide) in paragraph at lines 54--55
-\T1/BaskervilleF-TLF/m/n/10 de données complexes en informations exploitables. Compétent en optimisation des processus et en collaboration interfonctionnelle
+Overfull \hbox (30.28622pt too wide) in paragraph at lines 54--55
+\T1/BaskervilleF-TLF/m/n/10 Professionnel analytique doté de solides compétences en automatisation intelligente (RPA, Process Mining, OCR) et en programmation
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+BaskervilleF-TLF on input line 59.
@@ -547,45 +547,27 @@ LaTeX Font Info:    Font shape `TS1/BaskervilleF-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 59.
 LaTeX Font Info:    Font shape `T1/BaskervilleF-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 59.
-
-Overfull \hbox (0.29346pt too wide) in paragraph at lines 66--66
-[]\T1/BaskervilleF-TLF/m/n/10 Développement de tableaux de bord basés sur SQL dans Power BI, réduisant le temps de réparation de 15% et augmentant
- []
-
-
-Overfull \hbox (0.48456pt too wide) in paragraph at lines 66--66
-[]\T1/BaskervilleF-TLF/m/n/10 Utilisation de l'analyse statistique et des techniques d'apprentissage automatique pour identifier les schémas de défaillance. 
- []
-
-
-Overfull \hbox (1.05449pt too wide) in paragraph at lines 76--76
-[]\T1/BaskervilleF-TLF/m/n/10 Développement de modèles basés sur les données pour prédire les performances structurelles et optimiser les conceptions. 
- []
-
 LaTeX Font Info:    Font shape `T1/BaskervilleF-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 87.
-
-Overfull \vbox (2.63599pt too high) has occurred while \output is active []
-
+(Font)              scaled to size 9.0pt on input line 86.
  [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./CV_Gazzi_2025_FR.aux)
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./CV_Gazzi_2025_FR.aux)
 Package rerunfilecheck Info: File `CV_Gazzi_2025_FR.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11876 strings out of 478037
- 188370 string characters out of 5843053
+ 11875 strings out of 478037
+ 188364 string characters out of 5843053
  524294 words of memory out of 5000000
  30145 multiletter control sequences out of 15000+600000
  590890 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,689b,497s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,11n,77p,632b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/baskervillef/zba_uf5aa7.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/baskervillef/zba_qiwnw4.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/baskervillef/BaskervilleF-Bold.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/baskervillef/BaskervilleF-Italic.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/baskervillef/BaskervilleF-Regular.pfb>
-Output written on CV_Gazzi_2025_FR.pdf (2 pages, 91696 bytes).
+Output written on CV_Gazzi_2025_FR.pdf (1 page, 90722 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
+ 36 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
