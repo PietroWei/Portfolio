@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repair GUI | Pietro Gazzi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-text">
+            <h1>GUI de Gestion des Processus Internes</h1>
+            <p>Un outil de bureau Python et PyQt5 qui a remplacé un flux Excel hérité pour une équipe d'ingénieurs de réparation d'hélicoptères.</p>
+            <nav>
+                <a href="index_fr.html" class="language-switcher">
+                    <i class="fas fa-arrow-left"></i> Retour au portfolio
+                </a>
+                <a href="repair-gui.html" class="language-switcher">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="Drapeau du Royaume-Uni" style="width: 20px; height: 10px; vertical-align: middle; margin-right: 0.5em;">
+                    Version Anglaise
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="project-overview">
+        <h2>Présentation</h2>
+        <p>L'application a remplacé le flux Excel historique utilisé par plus de dix ingénieurs pour gérer les dossiers de réparation des opérateurs d'hélicoptères internationaux. Le processus précédent impliquait de jongler entre plusieurs fichiers Excel, de perdre le contexte lors du passage de main, et de router de simples questions techniques via de longs échanges par mail. Le nouvel outil regroupe réception, diagnostic, réparation et clôture dans une seule application de bureau Python adossée à une base SQLite partagée, avec visualisation 3D STL des composants et génération automatique de rapports PDF et Word.</p>
+        <p><strong>Note :</strong> le dépôt source est privé car l'outil est utilisé en interne et embarque une logique métier propriétaire. Cette page reprend les points saillants pour que le projet reste lisible de l'extérieur.</p>
+    </section>
+
+    <section id="problem-solution">
+        <h2>Problème et Solution</h2>
+        <div class="about-section">
+            <h3>Problème</h3>
+            <ul>
+                <li>Dossiers de réparation suivis dans plusieurs fichiers Excel et disques partagés, sans source unique de vérité</li>
+                <li>Doublons et perte de contexte à chaque passage de main entre membres de l'équipe</li>
+                <li>Questions techniques routées via de longs échanges par mail au lieu d'un enregistrement structuré</li>
+                <li>Reporting qui imposait d'extraire et de remettre en forme les données manuellement chaque semaine</li>
+                <li>Une partie du flux dépendait d'un logiciel externe à la fois coûteux et sous-performant</li>
+            </ul>
+        </div>
+        <div class="about-section">
+            <h3>Solution</h3>
+            <ul>
+                <li>Une seule application de bureau avec un flux par onglets couvrant réception, diagnostic, réparation et clôture</li>
+                <li>Backend SQLite partagé avec accès concurrent multi-utilisateurs et schéma normalisé</li>
+                <li>Recherche multi-critère sur l'ensemble des dossiers ouverts et historiques en moins d'une seconde</li>
+                <li>Visualiseur 3D STL interactif pour consulter la géométrie des composants sans sortir du dossier</li>
+                <li>Génération en un clic de rapports PDF et Word à partir des données du dossier</li>
+                <li>Tableaux de bord analytiques intégrés et exports prêts pour Power BI, pour le suivi des KPI et des SLA de flotte</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="tech-stack">
+        <h2>Stack Technique</h2>
+        <ul class="project-list">
+            <li><strong>Langage :</strong> Python 3.11</li>
+            <li><strong>GUI :</strong> PyQt5</li>
+            <li><strong>Base de données :</strong> SQLite avec un schéma de fichier partagé prenant en charge lecteurs concurrents et écritures sérialisées</li>
+            <li><strong>Visualiseur 3D :</strong> rendu STL via la famille pyvista / VTK</li>
+            <li><strong>Reporting :</strong> openpyxl, python-docx, reportlab</li>
+            <li><strong>Analyse :</strong> pandas, NumPy</li>
+            <li><strong>Packaging :</strong> PyInstaller (exécutable Windows en fichier unique)</li>
+            <li><strong>Tests :</strong> pytest sur les couches d'accès aux données et de reporting</li>
+        </ul>
+    </section>
+
+    <section id="screenshots">
+        <h2>Captures d'écran</h2>
+        <p>Un tour visuel des écrans principaux. <em>(Captures à ajouter avec des données de démo anonymisées, voir <code>images/repair-gui/</code>.)</em></p>
+        <div class="screenshot-grid">
+            <figure class="screenshot">
+                <img src="images/repair-gui/intake.png" alt="Écran de réception avec un nouveau dossier de réparation" onerror="this.parentElement.classList.add('missing')">
+                <figcaption>Réception. L'ingénieur cherche ou scanne un identifiant et le formulaire se remplit automatiquement avec les données client et équipement.</figcaption>
+            </figure>
+            <figure class="screenshot">
+                <img src="images/repair-gui/stl-viewer.png" alt="Visualiseur 3D STL intégré au formulaire du dossier" onerror="this.parentElement.classList.add('missing')">
+                <figcaption>Visualiseur 3D STL. La géométrie du composant est rendue dans la même fenêtre, l'ingénieur n'a pas à quitter le dossier pour vérifier une référence.</figcaption>
+            </figure>
+            <figure class="screenshot">
+                <img src="images/repair-gui/dashboard.png" alt="Tableau de bord avec KPI et débit hebdomadaire" onerror="this.parentElement.classList.add('missing')">
+                <figcaption>Tableau de bord. Dossiers ouverts, délai moyen de traitement, débit hebdomadaire, avec export Excel et Power BI en un clic.</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section id="usage-example">
+        <h2>Exemple d'Utilisation</h2>
+        <ol>
+            <li><strong>Ouvrir un dossier.</strong> L'ingénieur cherche par numéro de série, référence de pièce ou identifiant de dossier. L'application interroge SQLite et les dossiers correspondants apparaissent instantanément avec la dernière configuration connue et l'opérateur précédent.</li>
+            <li><strong>Enregistrer le diagnostic.</strong> Notes libres et liste contrôlée de codes défaut pour garder des statistiques propres. La géométrie de référence est tirée directement du visualiseur 3D STL sur le même écran.</li>
+            <li><strong>Proposer la réparation.</strong> Les pièces sont choisies dans un catalogue cherchable et les totaux se mettent à jour en direct. Les approbations sont journalisées avec utilisateur, horodatage et motif.</li>
+            <li><strong>Clôturer le dossier.</strong> L'enregistrement est figé, un rapport PDF est généré, une note client Word est produite à partir d'un modèle, et la vue KPI hebdomadaire est rafraîchie automatiquement.</li>
+        </ol>
+    </section>
+
+    <section id="impact">
+        <h2>Impact</h2>
+        <ul>
+            <li>Environ 100 k€ de sous-traitance évités en abandonnant le logiciel externe</li>
+            <li>Environ 30% de temps de traitement par dossier en moins</li>
+            <li>Moins d'erreurs de saisie grâce aux vocabulaires contrôlés et aux clés étrangères au niveau base</li>
+            <li>Les nouveaux rapports se résument désormais à écrire une vue SQL au lieu d'une demande de changement chez l'éditeur</li>
+            <li>Outil unique adopté par toute l'équipe d'ingénieurs, remplaçant le mélange précédent de fichiers Excel et de logiciel externe</li>
+        </ul>
+    </section>
+
+    <footer id="contact">
+        <h1>Contacts</h1>
+        <p>
+            <i class="fas fa-map-marker-alt"></i> Milan, Italie<br>
+            <a href="mailto:pietrogazzi01@gmail.com"><i class="fas fa-envelope"></i> pietrogazzi01@gmail.com</a><br>
+            <a href="https://www.linkedin.com/in/pietro-gazzi/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a><br>
+            <i class="fas fa-phone"></i> +39 327 049 2624
+        </p>
+    </footer>
+</body>
+</html>

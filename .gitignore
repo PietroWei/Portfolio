@@ -1,0 +1,12 @@
+# Local instructions and session data for Claude Code, not meant to be published
+CLAUDE.md
+.claude/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+Preparation/

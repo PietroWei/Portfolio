@@ -1,37 +1,41 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* Light background color */
+    background-color: #f9f9f9;
+    color: #222;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
 }
 
 header {
-    background-color: #01033f; /* Dark blue */
-    color: #ffffff; /* Testo bianco */
-    padding: 1em 0;
-    text-align: center;
-    position: relative; /* Aggiungi questa linea */
+    background-color: #01033f;
+    color: #ffffff;
+    padding: 1.5em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
 }
 
-.profile-image {
-    position: absolute;
-    top: 50%; /* Centra verticalmente */
-    right: 10px; /* Regola secondo necessità */
-    transform: translateY(-50%); /* Centra verticalmente */
-    max-height: 120px; /* Altezza massima */
+.header-text {
+    flex: 1;
+    text-align: center;
+    min-width: 0;
+}
+
+.profile-image,
+.profile-image-left {
+    max-height: 110px;
     width: auto;
-    border: 2px solid #ffffff; /* Aggiunge un bordo bianco */
+    border: 2px solid #ffffff;
+    flex-shrink: 0;
 }
 
 .profile-image-left {
-    position: absolute;
-    top: 50%; /* Center vertically */
-    left: 10px; /* Adjust as needed */
-    transform: translateY(-50%); /* Center vertically */
-    max-height: 120px; /* Max height */
-    width: auto;
-    border: 2px solid #ffffff; /* Add a white border */
-    border-radius: 50%; /* Make the image rounded */
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 
 nav a {
@@ -82,16 +86,84 @@ h1 {
     color: #eaeaea; /* Pearly color */
 }
 
+.project-list {
+    list-style: none;
+    padding: 0;
+}
+
 .project-list li {
-    background-color: #f0f0f0; /* Even lighter gray background for list items */
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    background-color: #ffffff;
+    padding: 1em 1.2em;
+    border-radius: 6px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 0.8em;
+    transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
+}
+
+.project-list li:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    border-color: #cccccc;
+}
+
+.project-list li.featured {
+    border-left: 4px solid #01033f;
 }
 
 .project-list a {
-    color: #333333; /* Dark gray for links */
-    font-weight: bold;
+    color: #01033f;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.project-list a:hover {
+    text-decoration: underline;
+}
+
+.project-list li p {
+    margin: 0.5em 0;
+    color: #444;
+}
+
+/* Tech-stack pill badges under each project */
+.tech-tags {
+    list-style: none;
+    padding: 0;
+    margin: 0.6em 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+}
+
+.tech-tags li {
+    background-color: #eef0f7;
+    color: #01033f;
+    border: none;
+    padding: 0.18em 0.6em;
+    border-radius: 999px;
+    font-size: 0.78em;
+    font-weight: 500;
+    margin: 0;
+    transition: none;
+}
+
+.tech-tags li:hover {
+    transform: none;
+    box-shadow: none;
+    border: none;
+}
+
+/* Work-in-progress badge — replaces the old inline red style */
+.wip-badge {
+    display: inline-block;
+    background-color: #fff4e5;
+    color: #a65a00;
+    font-size: 0.75em;
+    font-weight: 600;
+    padding: 0.1em 0.6em;
+    border-radius: 999px;
+    margin-left: 0.4em;
+    vertical-align: middle;
 }
 
 .about-section {
@@ -119,12 +191,12 @@ h1 {
 
 
 .mini-index {
-    background-color: 0 0 10px rgb(155, 149, 149); /* Light shadow for depth */
+    background-color: #ffffff;
     padding: 1em;
     text-align: center;
     margin-bottom: 2em;
     border-radius: 5px;
-    box-shadow: 0 0 10px #f0f0f0; /* Even lighter gray shadow for depth */
+    box-shadow: 0 0 10px #f0f0f0;
 }
 
 .mini-index ul {
@@ -144,6 +216,48 @@ h1 {
     font-weight: bold;
 }
 
+/* Screenshot grid for project detail pages */
+.screenshot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.screenshot {
+    margin: 0;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.screenshot img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.screenshot figcaption {
+    padding: 0.6em 0.8em;
+    font-size: 0.9em;
+    color: #555555;
+}
+
+/* Fallback when a screenshot image is missing */
+.screenshot.missing img { display: none; }
+.screenshot.missing {
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    text-align: center;
+    color: #999999;
+    font-style: italic;
+}
+.screenshot.missing figcaption { padding: 0; color: #888888; }
+
 /* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
     body {
@@ -151,22 +265,14 @@ h1 {
     }
 
     header {
-        padding: 0.5em 0;
+        flex-direction: column;
+        padding: 1em;
+        gap: 0.8em;
     }
 
-    .profile-image {
-        position: static; /* Remove absolute positioning */
-        display: block;
-        margin: 0 0 10px auto; /* Align the image to the right and add margin */
-        max-height: 50px; /* Make the image really small */
-    }
-
+    .profile-image,
     .profile-image-left {
-        position: static; /* Remove absolute positioning */
-        display: block;
-        margin: 0 auto 10px 0; /* Align the image to the left and add margin */
-        max-height: 50px; /* Make the image really small */
-        border-radius: 50%; /* Make the image rounded */
+        max-height: 70px;
     }
 
     nav a {

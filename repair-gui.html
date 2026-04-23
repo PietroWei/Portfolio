@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repair GUI | Pietro Gazzi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-text">
+            <h1>Internal Process Management GUI</h1>
+            <p>A Python and PyQt5 desktop tool that replaced a legacy Excel workflow for a team of helicopter repair engineers.</p>
+            <nav>
+                <a href="index.html" class="language-switcher">
+                    <i class="fas fa-arrow-left"></i> Back to portfolio
+                </a>
+                <a href="repair-gui_fr.html" class="language-switcher">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg" alt="French flag" style="width: 20px; height: 10px; vertical-align: middle; margin-right: 0.5em;">
+                    Version Française
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="project-overview">
+        <h2>Overview</h2>
+        <p>The application replaced the legacy Excel workflow used by more than ten engineers to manage repair cases for international helicopter operators. The previous process meant juggling spreadsheets, losing context between cases, and routing simple technical questions through long email chains. The new tool consolidates intake, diagnosis, repair and closure into one Python desktop application backed by a shared SQLite database, with 3D STL visualization of components and automatic generation of PDF and Word reports.</p>
+        <p><strong>Note:</strong> the source repository is private because the tool is used internally and embeds proprietary logic. This page collects the highlights so the work is still readable from the outside.</p>
+    </section>
+
+    <section id="problem-solution">
+        <h2>Problem and Solution</h2>
+        <div class="about-section">
+            <h3>Problem</h3>
+            <ul>
+                <li>Repair cases tracked across multiple Excel files and shared drives, with no single source of truth</li>
+                <li>Duplicate entries and lost context whenever a case was handed over between team members</li>
+                <li>Technical questions routed through long email chains instead of a structured record</li>
+                <li>Reporting required extracting and reshaping data manually in Excel every week</li>
+                <li>Part of the workflow depended on an external software that was both expensive and underperforming</li>
+            </ul>
+        </div>
+        <div class="about-section">
+            <h3>Solution</h3>
+            <ul>
+                <li>One desktop application with a tabbed workflow covering intake, diagnosis, repair and closure</li>
+                <li>Shared SQLite backend with concurrent multi-user access and a normalized schema</li>
+                <li>Multi-parameter search across open and historical cases in under a second</li>
+                <li>Interactive 3D STL viewer so engineers can reference component geometry inline with the case</li>
+                <li>One-click generation of PDF and Word repair reports from case data</li>
+                <li>In-app analytics dashboards plus Power BI ready exports for fleet KPI and SLA monitoring</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="tech-stack">
+        <h2>Tech Stack</h2>
+        <ul class="project-list">
+            <li><strong>Language:</strong> Python 3.11</li>
+            <li><strong>GUI:</strong> PyQt5</li>
+            <li><strong>Database:</strong> SQLite with a shared file layout supporting concurrent readers and serialized writers</li>
+            <li><strong>3D viewer:</strong> STL rendering via the pyvista / VTK family</li>
+            <li><strong>Reporting:</strong> openpyxl, python-docx, reportlab</li>
+            <li><strong>Analysis:</strong> pandas, NumPy</li>
+            <li><strong>Packaging:</strong> PyInstaller single-file Windows executable</li>
+            <li><strong>Testing:</strong> pytest on the data access and reporting layers</li>
+        </ul>
+    </section>
+
+    <section id="screenshots">
+        <h2>Screenshots</h2>
+        <p>A visual tour of the main screens. <em>(Screenshots to be added with sanitized demo data, see <code>images/repair-gui/</code>.)</em></p>
+        <div class="screenshot-grid">
+            <figure class="screenshot">
+                <img src="images/repair-gui/intake.png" alt="Intake screen with new repair case" onerror="this.parentElement.classList.add('missing')">
+                <figcaption>Intake. The engineer searches or scans an identifier and the form auto-fills customer and asset data.</figcaption>
+            </figure>
+            <figure class="screenshot">
+                <img src="images/repair-gui/stl-viewer.png" alt="3D STL viewer embedded in the case form" onerror="this.parentElement.classList.add('missing')">
+                <figcaption>3D STL viewer. Component geometry is rendered inline, so the engineer does not leave the case to check a reference.</figcaption>
+            </figure>
+            <figure class="screenshot">
+                <img src="images/repair-gui/dashboard.png" alt="Dashboard screen with KPIs and weekly throughput" onerror="this.parentElement.classList.add('missing')">
+                <figcaption>Dashboard. Open cases, average turnaround, weekly throughput, with one-click export to Excel and Power BI.</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section id="usage-example">
+        <h2>Usage Example</h2>
+        <ol>
+            <li><strong>Open a case.</strong> The engineer searches by serial number, part number or case id. The app queries SQLite and matching cases appear instantly with last known configuration and prior operator.</li>
+            <li><strong>Log the diagnosis.</strong> Free-text notes plus a controlled list of fault codes keep statistics clean. Reference geometry is pulled directly from the 3D STL viewer on the same screen.</li>
+            <li><strong>Propose the repair.</strong> Parts are selected from a searchable catalog and totals update live. Approvals are logged with user, timestamp and reason.</li>
+            <li><strong>Close the case.</strong> The record is frozen, a PDF repair report is generated, a Word client note is produced from a template, and the weekly KPI view is refreshed automatically.</li>
+        </ol>
+    </section>
+
+    <section id="impact">
+        <h2>Impact</h2>
+        <ul>
+            <li>About €100k of outsourcing cost avoided by moving off the external software</li>
+            <li>Roughly 30% reduction in processing time per repair case</li>
+            <li>Fewer data-entry errors thanks to controlled vocabularies and foreign-key constraints at the database level</li>
+            <li>New reports are now a matter of writing a SQL view instead of filing a vendor change request</li>
+            <li>Single tool adopted by the full team of engineers, replacing the previous mix of Excel files and external software</li>
+        </ul>
+    </section>
+
+    <footer id="contact">
+        <h1>Contacts</h1>
+        <p>
+            <i class="fas fa-map-marker-alt"></i> Milan, Italy<br>
+            <a href="mailto:pietrogazzi01@gmail.com"><i class="fas fa-envelope"></i> pietrogazzi01@gmail.com</a><br>
+            <a href="https://www.linkedin.com/in/pietro-gazzi/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a><br>
+            <i class="fas fa-phone"></i> +39 327 049 2624
+        </p>
+    </footer>
+</body>
+</html>
